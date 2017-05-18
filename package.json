@@ -1,0 +1,28 @@
+{
+  "name": "purduetemplates2014",
+  "version": "1.0.0",
+  "description": "Included in this project are the Purdue University templates developed by the Office of Marketing and Media in 2014.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PurdueMarketingAndMedia/purdueTemplates-2014.git"
+  },
+  "author": "Purdue Office of Marketing and Media",
+  "license": "No License",
+  "bugs": {
+    "url": "https://github.com/PurdueMarketingAndMedia/purdueTemplates-2014/issues"
+  },
+  "homepage": "https://github.com/PurdueMarketingAndMedia/purdueTemplates-2014#readme",
+  "devDependencies": {
+    "async": "^2.1.5",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-file-include": "^1.0.0",
+    "gulp-html-prettify": "0.0.1",
+    "gulp-if-else": "^1.0.3"
+  }
+}
