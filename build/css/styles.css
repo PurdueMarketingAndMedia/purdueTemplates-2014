@@ -1,0 +1,2386 @@
+html {
+    background-color:#3b3b3b;
+}
+
+body {
+    position:relative;
+}
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    margin-top:20px;
+}
+h1 {
+    font-size:28px;
+}
+h2 {
+	font-size:24px;
+}
+h3 {
+	font-size:20px;
+}
+h4 {
+	font-size:18px;
+}
+h5 {
+	font-size:16px;
+}
+h6 {
+	font-size:14px;
+}
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	font-weight: 300;
+	color:#a3792c;
+}
+a { 
+    cursor:pointer !important;
+	color:#a3792c;
+}
+a:hover,
+a:link,
+a:visited,
+a:active {
+	color: #a3792c;
+}
+
+table,
+p,
+.maincontent ul li,
+.maincontent ol li {
+    font-size:13px;
+}
+div a,
+p a,
+li a,
+blockquote a,
+td a {
+	color:#a3792c;
+	text-decoration:underline;
+}
+div a:hover,
+div a:focus,
+p a:hover,
+p a:focus,
+li a:hover,
+li a:focus,
+blockquote a:hover,
+blockquote a:focus,
+td a:hover,
+td a:focus {
+	color:#a3792c;
+	text-decoration:none;
+}
+.right {
+	float:right;
+}
+.left {
+	float:left;
+}
+.transition {
+	-webkit-transition-duration: .3s;
+	-moz-transition-duration: .3s;
+	-o-transition-duration: .3s;
+	transition-duration: .3s;
+	-ms-transition-duration: .3s;
+}
+.navbar {
+	margin-bottom:0px;
+	border-radius:0px;
+	min-height:inherit;
+}
+.navbar .container {
+	padding:0px;
+}
+.navbar-nav {
+	margin:0px !important;
+}
+.navbar-collapse {
+	border:0px;
+	box-shadow:none;
+	padding:0px;
+}
+.navbar-toggle {
+	float:left;
+	margin-left:15px;
+	margin-right:0px;
+	border:0px;
+}
+.navbar-toggle.search {
+	margin-right:15px;
+}
+.navbar-inverse .search .navbar-nav > .open > a,
+.navbar-inverse .search .navbar-nav > .open > a:hover,
+.navbar-inverse .search .navbar-nav > .open > a:focus {
+	background-color:transparent;
+	color: #000;
+}
+.goldbar {
+	background-color:#a3792c;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:11px;
+	border:0px;
+	box-shadow: 0px 2px 10px #1e1e1e;
+}
+.goldbar a {
+    text-decoration:none !important;
+}
+.goldbar .dropdown-menu {
+	border-radius:0px;
+}
+.goldbar .navbar-nav > li > a {
+	color:#fff;
+	padding:5px 15px;
+}
+.goldbar .navbar-nav > li > a:hover {
+	background-color:transparent;
+	color: #000;
+}
+.goldbar .navbar-nav > li > a .fa-search {
+    line-height:20px;
+}
+.goldbar .navbar-nav.information > li > a, 
+.goldbar .navbar-nav.quicklinks > li > a {
+	
+}
+.goldbar.navbar-inverse .navbar-nav.information > .open > a,
+.goldbar.navbar-inverse .navbar-nav.information > .open > a:hover,
+.goldbar.navbar-inverse .navbar-nav.information > .open > a:focus {
+	background-color:transparent;
+	color:#000;
+}
+.goldbar .navbar-toggle:hover,
+.goldbar .navbar-toggle:focus,
+.goldbar .navbar-toggle:hover  {
+	background-color:transparent;
+}
+.goldbar .navbar-toggle:hover .icon-bar,
+.goldbar .navbar-toggle:focus .icon-bar,
+.goldbar .navbar-toggle:active .icon-bar {
+	background-color:#000;
+}
+.goldbar .navbar-toggle:hover .fa-lg,
+.goldbar .navbar-toggle:focus .fa-lg,
+.goldbar .navbar-toggle:active .fa-lg {
+	color:#000000;
+}
+.goldbar .navbar-nav > .information.open > a,
+.goldbar .navbar-nav > .information.open > a:hover,
+.goldbar .navbar-nav > .information.open > a:focus,
+.goldbar .navbar-nav > .quicklinks.open > a,
+.goldbar .navbar-nav > .quicklinks.open > a:hover,
+.goldbar .navbar-nav > .quicklinks.open > a:focus {
+	background-color:transparent;
+}
+
+.goldbar .information .dropdown-menu,
+.goldbar .quicklinks .dropdown-menu {
+	background-color: #a3792c;
+	border:0px;
+	box-shadow:none;
+	z-index:1001;
+}
+.goldbar .information .dropdown-menu > li > a,
+.goldbar .quicklinks .dropdown-menu > li > a {
+	font-size:12px;
+	color:#fff;
+	text-transform:none;
+}
+.goldbar .information .dropdown-menu > li > a:hover,
+.goldbar .quicklinks .dropdown-menu > li > a:hover {
+	color:#000;
+	background-color:transparent;
+}
+.goldbar .quicklinks li a {
+	margin:5px 10px;
+	padding:0px;
+}
+.goldbar .quicklinks li a:nth-child(0) {
+	border:0px;
+}
+.goldbar .search .dropdown-menu {
+	background-color: #a3792c;
+	padding:0px;
+	border:0px;
+}
+
+.goldbar .search .form-group {
+	background-color:transparent;
+	float:right;
+	margin-bottom:0px;
+}
+.goldbar .search .form-control, 
+.goldbar .search .btn {
+	border:0px;
+	border-radius:0px;
+	box-shadow:none;
+	background-color:transparent;
+	display:inline-block;
+	height:35px;
+}
+.goldbar .search .form-control,
+.cse input.gsc-input,
+input.gsc-input {
+	color:#000;
+	width:200px !important;
+    border: 0px;
+}
+.goldbar .search .btn {
+	color:#fff;
+	font-size:12px;
+	padding:3px 8px;
+}
+.goldbar .search .btn:hover {
+	color:#c5960b;
+}
+.goldbar .search .btn i {
+	display: block;
+}
+.goldbar .search .form-group .gsc-search-button,
+.goldbar .search .form-group .gsc-clear-button {
+    display:none;
+}
+.cse form.gsc-search-box, form.gsc-search-box {
+    padding:7px !important;
+    margin:0px !important;
+}
+table.gsc-search-box {
+	margin:0px !important;
+}
+.cse table.gsc-search-box td.gsc-input,
+table.gsc-search-box td.gsc-input {
+    padding:0px !important;
+}
+table.gsc-branding, table.gcsc-branding {
+	display:none;
+}
+.top {
+	background-image: url('https://www.purdue.edu/purdue/images/stripes.png');
+	background-repeat:repeat;
+	/*height:105px;*/
+}
+.top .logo {
+	margin:25px 0px;
+}
+.top .logo a,
+.top .logo a img {
+	width:100%;
+	display:block;
+}
+.top .department {
+	width:inherit;
+}
+.top .department a,
+.top .department .tagline {
+	color:#fff;
+	font-weight: 100;
+	padding-left:10px;
+	padding-right:10px;
+	text-decoration:none;
+	letter-spacing:1px;
+	border-left:1px solid #a3792c;
+	display: block;
+}
+.top .department .tagline {
+	font-size:.8em;
+} 
+.top .department .tagline a {
+	font-size:inherit;
+	color:#fff; 
+	text-decoration:none;
+	border: 0px;
+	padding: 0px;
+}
+.blackbar {
+	background-color:#171717;
+	border:0px;
+}
+.blackbar a {
+    text-decoration:none !important;
+}
+.blackbar .navbar-toggle:hover,
+.blackbar .navbar-toggle:focus,
+.blackbar .navbar-toggle:hover  {
+	background-color:transparent;
+}
+.blackbar .navbar-toggle:hover .icon-bar,
+.blackbar .navbar-toggle:focus .icon-bar,
+.blackbar .navbar-toggle:active .icon-bar {
+	background-color:#856324;
+}
+.blackbar .navbar-nav > .open > a,
+.blackbar .navbar-nav > .open > a:hover,
+.blackbar .navbar-nav > .open > a:focus{
+	background-color:transparent;
+}
+.blackbar li a .caret {
+    display: none;
+}
+.blackbar li.dropdown a.dropdown-toggle .caret {
+    display: inline-block;
+    margin-left:5px;
+}
+.blackbar .dropdown .dropdown-menu {
+	background-color:#171717;
+	border:0px;
+	border-radius:0px;
+	z-index:1001;
+}
+.blackbar .dropdown .dropdown-menu > li > a {
+	color:#999;
+}
+.blackbar .dropdown .dropdown-menu > li > a:hover,
+.blackbar .dropdown .dropdown-menu > li > a:focus {
+	background-color:transparent;
+	color:#fff;
+}
+.blackbar .dropdown .dropdown-menu > li.dropdown-submenu > a .caret {
+    display:none;
+}
+.blackbar .dropdown.open ul.dropdown-menu li.dropdown:hover > ul.dropdown-menu {
+    display:block;
+    top: 0;
+    left: 100%;
+}
+.blackbar .dropdown.open ul.dropdown-menu li.dropdown:hover > ul.dropdown-menu li.dropdown ul.dropdown-menu {
+    display:none;
+}
+.blackbar .dropdown.megamenu {
+	position: static;
+}
+.blackbar .dropdown.megamenu .dropdown-menu {
+	left: auto;
+}
+.blackbar .dropdown.megamenu .dropdown-menu ul {
+	width:160px;
+	padding:0px;
+	list-style-type:none;
+}
+.blackbar .dropdown.megamenu .dropdown-menu ul li {
+	color:#999;
+}
+.blackbar .dropdown.megamenu .dropdown-menu ul li a {
+	padding: 3px 20px;
+	color:#999;
+	text-decoration:none;
+	display:block;
+}
+.blackbar .dropdown.megamenu .dropdown-menu ul li a:hover {
+	color:#fff;
+}
+.blackbar .dropdown.megamenu .dropdown-menu ul li img {
+	width:100%;
+	padding: 0px 20px 15px 20px;
+}
+.dropdown-menu {
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}
+.dropdown-submenu {
+	position:relative;
+}
+.dropdown-submenu > .dropdown-menu {
+	top:0;
+	left:100%;
+	margin-top:-6px;
+	margin-left:-1px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+.dropdown-submenu:hover > .dropdown-menu {
+	display:block;
+}
+.dropdown-submenu > a:after {
+	display:block;
+	content:" ";
+	float:right;
+	width:0;
+	height:0;
+	border-color:transparent;
+	border-style:solid;
+	border-width:4px 0 4px 4px;
+	border-left-color:#999;
+	margin-top:5px;
+	margin-right:-10px;
+}
+.dropdown-submenu:hover > a:after {
+	border-left-color:#ffffff;
+}
+.dropdown-submenu.pull-left {
+	float:none;
+}
+.dropdown-submenu.pull-left > .dropdown-menu {
+	left:-100%;
+	margin-left:10px;
+	-webkit-border-radius:6px 0 6px 6px;
+	-moz-border-radius:6px 0 6px 6px;
+	border-radius:6px 0 6px 6px;
+}
+.boxes {
+	padding:10px 5px;
+	/*margin:0px;*/
+}
+.boxes .row,
+.boxes .row div {
+	margin:0px;
+	padding:0px;
+}
+.boxes .row div a {
+	font-weight: 300;
+}
+.boxes .row .audiencebox,
+.boxes .row .emergency,
+.boxes .row .currentstudents,
+.boxes .row .ourresearch,
+.boxes .row .communityoutreach,
+.boxes .row .eventcalendar,
+.boxes .row .visit,
+.boxes .row .apply,
+.boxes .row .thinksummer,
+.boxes .row .business,
+.boxes .row .facultystaff,
+.boxes .row .prospectivestudents,
+.boxes .row .movein,
+.boxes .row .alumnidonors,
+.boxes .row .careers,
+.boxes .row .library,
+.boxes .row .graduation,
+.boxes .row .newsevents,
+.boxes .row .homecoming,
+.boxes .row .givenow {
+	/*border: 10px solid white;*/
+	padding:10px;
+}
+.audiencebox a,
+.emergency a,
+.currentstudents a,
+.ourresearch a,
+.communityoutreach a,
+.eventcalendar a,
+.visit a,
+.apply a,
+.thinksummer a,
+.business a,
+.facultystaff a,
+.prospectivestudents a,
+.movein a,
+.alumnidonors a,
+.careers a,
+.library a,
+.graduation a,
+.newsevents a,
+.homecoming a,
+.givenow a {
+	background-size:cover;
+	background-repeat:no-repeat;
+	width:100%;
+	display:block;
+	position:relative;
+	text-decoration:none;
+}
+.audiencebox a,
+.emergency a,
+.currentstudents a,
+.communityoutreach a,
+.facultystaff a,
+.prospectivestudents a,
+.movein a,
+.alumnidonors a,
+.ourresearch a,
+.newsevents a,
+.business a {
+	background-position:center center;
+}
+.eventcalendar a,
+.visit a,
+.apply a,
+.thinksummer a,
+.givenow a,
+.careers a,
+.library a,
+.graduation a {
+	background-position:top right;
+	background-size:contain;
+}
+.audiencebox a {
+	background-image: url('http://www.purdue.edu/purdue/images/audiencebox.jpg');
+	border-bottom:8px solid #000000;
+}
+.emergency a {
+	background-color:#FF0000;
+	border:0px;
+}
+.currentstudents a {
+	background-image: url('http://www.purdue.edu/purdue/images/currentstudents_banner.jpg');
+	border-bottom:8px solid #2EAFA4;
+}
+.currentstudents.news a {
+	background-image: url('http://www.purdue.edu/purdue/images/currentstudents_news_banner.jpg');
+	border-bottom:0px;
+}
+.library a {
+	background-image: url('http://www.purdue.edu/purdue/images/library.png');
+	background-color:#2EAFA4;
+	border-bottom:0px;
+}
+.graduation a {
+	background-image: url('http://www.purdue.edu/purdue/images/graduation.png');
+	background-color:#000000;
+	border-bottom:0px;
+}
+.ourresearch a {
+	background-image: url('http://www.purdue.edu/purdue/images/ourresearch_homepage.jpg');
+	border-bottom:8px solid #7299C6;
+}
+.communityoutreach a {
+	background-image: url('http://www.purdue.edu/purdue/images/communityoutreach_banner.jpg');
+	border-bottom:8px solid #7ed0e0;
+}
+.careers a {
+	/*background-image: url('http://www.purdue.edu/purdue/images/careers_banner.jpg');*/
+	/*border-bottom:8px solid #D9DA56;*/
+	background-color:#5C8727;
+	border-bottom:0px;
+	background-position:top right;
+	background-size:contain;
+	background-image: url('http://www.purdue.edu/purdue/images/careers_icon.png');
+}
+.facultystaff a {
+    background-image: url('http://www.purdue.edu/purdue/images/facultystaff_banner.jpg');
+	border-bottom:8px solid #B8B308;
+}
+.prospectivestudents a {
+	background-image: url('http://www.purdue.edu/purdue/images/prospectivestudents_banner.jpg');
+	border-bottom:8px solid #A3792C;
+}
+.movein a {
+	background-image: url('http://www.purdue.edu/purdue/images/movein_banner.jpg');
+	border-bottom:8px solid #7299c6;
+}
+.alumnidonors a {
+	background-image: url('http://www.purdue.edu/purdue/images/alumnidonors_banner.jpg');
+	border-bottom:8px solid #888888;
+}
+.newsevents a {
+	background-image: url('http://www.purdue.edu/purdue/images/newsevents_banner.jpg');
+	border-bottom:8px solid #746C66;
+}
+.eventcalendar a {
+	background-image: url('http://www.purdue.edu/purdue/images/eventcalendar_icon.png');
+	background-color:#746c66;
+	border-bottom:0px;
+}
+.visit a {
+	background-image: url('http://www.purdue.edu/purdue/images/visit_icon.png');
+	background-color:#E3AE24;
+	border-bottom:0px;
+}
+.apply a {
+	background-image: url('http://www.purdue.edu/purdue/images/apply_icon.png');
+	/*background-color:#E3AE24;*/
+	background-color:#746c66;
+	border-bottom:0px;
+}
+.thinksummer a {
+	background-image: url('http://www.purdue.edu/purdue/images/thinksummer_icon.png');
+	background-color:#000000;
+	border-bottom:0px;
+}
+.thinksummer a:hover {
+	background-image: url('http://www.purdue.edu/purdue/images/thinksummer_icon_hover.png');
+}
+.givenow a {
+	background-image: url('http://www.purdue.edu/purdue/images/givenow_icon.png');
+	background-color:#E3AE24;
+	border-bottom:0px;
+}
+.business a {
+	background-image: url('http://www.purdue.edu/purdue/images/engage_banner.jpg');
+	/*background-color:#5C8727;
+	border-bottom:0px;*/
+	border-bottom:8px solid #b8b308;
+	
+}
+.homecoming a {
+	background-image: url('http://www.purdue.edu/purdue/images/homecoming.jpg');
+	border-bottom:8px solid #000000;
+}
+a .caption {
+	position:absolute;
+	/*bottom:5px;
+	left:10px;*/
+	bottom: 0px;
+	left: 0px;
+	padding: 5px 10px;
+	width: inherit;
+	color:#fff;
+	font-size:18px;
+	font-weight:300;
+	line-height:18px;
+	text-transform:uppercase;
+}
+a .caption,
+.audiencebox a .caption,
+.currentstudents a .caption,
+.currentstudents.news a .caption,
+.communityoutreach a .caption,
+.facultystaff a .caption,
+.prospectivestudents a .caption,
+.movein a .caption,
+.alumnidonors a .caption,
+.ourresearch a .caption,
+.newsevents a .caption,
+.homecoming a .caption,
+.business a .caption {
+	text-shadow:2px 2px 5px #000;
+}
+.eventcalendar a .caption,
+.visit a .caption,
+.apply a .caption,
+.thinksummer a .caption,
+.givenow a .caption,
+.careers a .caption,
+.library a .caption,
+.graduation a .caption {
+	padding-bottom:8px;
+	text-shadow: none;
+}
+.emergency a .caption,
+.news a .caption {
+	top:0px;
+	left:0px;
+	margin:20px;
+	text-shadow:none !important;
+	text-transform:none;
+}
+	
+
+/* START Purdue Home page box styles */
+@media only screen and (max-width: 479px) {
+	.boxes .row div a {
+		height:100px;
+	}
+	a .caption {
+		font-size:16px;
+		line-height: 18px;
+	}
+	/*.boxes .row .emergency a {
+     height:240px;   
+	}*/
+	.boxes .row .prospectivestudents a,
+	.boxes .row .movein a,
+	.boxes .row .alumnidonors a
+	.boxes .row .ourresearch a {
+		height:220px !important;
+	}
+	
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.boxes .row div a {
+		height:138px;
+	}
+	a .caption {
+		font-size:18px;
+		line-height: 18px;
+	}
+    /*.boxes .row .emergency a {
+     height:180px;   
+	}*/
+    .boxes .row .prospectivestudents a,
+	.boxes .row .movein a,
+	.boxes .row .alumnidonors a/*,
+	.boxes .row .ourresearch a*/ {
+		height:296px !important;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.boxes {
+		padding: 7px;
+	}
+	.boxes .row .audiencebox a,
+	.boxes .row .emergency a,
+	.boxes .row .currentstudents,
+	.boxes .row .ourresearch,
+	.boxes .row .communityoutreach,
+	.boxes .row .eventcalendar,
+	.boxes .row .visit,
+	.boxes .row .apply,
+	.boxes .row .thinksummer,
+	.boxes .row .business,
+    .boxes .row .facultystaff,
+	.boxes .row .prospectivestudents,
+	.boxes .row .movein,
+	.boxes .row .alumnidonors,
+	.boxes .row .careers,
+	.boxes .row .library,
+	.boxes .row .graduation,
+	.boxes .row .homecoming {
+		/*border: 7px solid white;*/
+	}
+	.boxes .row .emergency a {
+		height: 100%;
+	}
+	.boxes .row .emergency a .caption {
+		display:block;
+		margin-top:0px;
+		padding-top:20px;
+		position:relative;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.boxes .row div a {
+		height:102px;
+	}
+    .boxes .row .emergency a {
+     height:120px;   
+	}
+	.boxes .row .prospectivestudents a,
+	.boxes .row .movein a,
+	.boxes .row .alumnidonors a,
+	.boxes .row .ourresearch a {
+		height:224px;
+	}
+	a .caption {
+		font-size:13px;
+		line-height:13px;
+	}
+}
+@media only screen and (min-width: 992px) {
+	.boxes .row div a {
+		height:138px;
+	}
+	.boxes .row .emergency a {
+     height:180px;   
+	}
+	.boxes .row .prospectivestudents a,
+	.boxes .row .movein a,
+	.boxes .row .alumnidonors a,
+	.boxes .row .ourresearch a {
+		height:296px;
+	}
+	a .caption {
+		font-size:18px;
+		line-height:18px;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	.boxes .row div a {
+		height:172px;
+	}
+	.boxes .row .emergency a {
+     height:200px;   
+	}
+	.boxes .row .prospectivestudents a,
+	.boxes .row .movein a,
+	.boxes .row .alumnidonors a,
+	.boxes .row .ourresearch a {
+		height:364px;
+	}
+	a .caption {
+		font-size:24px;
+		line-height:24px;
+	}
+}
+/* END Purdue Home page box styles */
+
+
+.banner1,
+.banner2,
+.banner3 {
+	background-size:cover;
+	background-position:center center;
+	padding:0px;
+	border:20px solid #fff;
+	position: relative;
+}
+.banner1 {
+	background-image:url('http://www.purdue.edu/purdue/images/banner1.jpg');
+}
+.banner2 {
+	background-image:url('http://www.purdue.edu/purdue/images/banner2.jpg');
+}
+.banner3 {
+	background-image:url('http://www.purdue.edu/purdue/images/banner3.jpg');
+}
+
+.carousel-caption {
+	left:20px;
+	right:auto;
+	text-align:left;
+	padding:0px;
+}
+
+.carousel-caption h2 {
+	background-color:#a3792c;
+	color:#fff;
+	text-shadow:none;
+	font-size:18px;
+	padding:10px;
+	margin:0px;
+	display: inline-block;
+}
+
+.carousel-caption p {
+	background-color:#fff;
+	text-shadow:none;
+	font-size:12px;
+	padding:10px;
+	margin:0px;
+	color:#000;
+}
+.carousel-control {
+	opacity: 1;
+	color: #ccc;
+	text-shadow: none;
+}
+.carousel-control:hover {
+	color:#333;
+}
+.carousel-control.left,
+.carousel-control.right {
+	background:none;
+	height:100%;
+	width: 25px;
+	font-size: 20px;
+}
+.carousel-control .fa {
+	top:50%;
+	position:relative;
+}
+
+.carousel-indicators {
+	/*bottom: -10px;*/
+	display:none;
+}
+.carousel-indicators li {
+	border-color:#ccc;
+}
+.carousel-indicators .active {
+	background-color: #ccc;
+	width:11px;
+	height:11px;
+}
+.audience {
+	background-image:none;
+	background-color:#999;
+    background-position:center center;
+	background-size:cover;
+	padding:15px;
+	text-shadow: 1px 1px 5px #000;
+}
+.audience h1,
+.audience h2 {
+	color:#fff;
+	font-size: 24px;
+}
+.audience p {
+	margin-bottom:20px;
+	color:#fff;
+	font-size:14px;
+}
+.audience .btn {
+	background-image: url('http://www.purdue.edu/purdue/images/transparentblack.png');
+	border:1px solid #fff;
+	border-radius:0px;
+	padding:12px;
+	margin:30px 0px;
+	color:#fff;
+	text-shadow:none;
+	text-decoration:none;
+    width:100%;
+}
+.audience .btn:hover {
+	background-color:#999;
+    background-image:none;
+}
+.resources {
+	padding:10px 0px;
+}
+.resources h4 {
+	font-size: 26px;
+	color:#6f6f6f;
+	margin-top:0px;
+}
+.resources .links {
+	display:inline-block;
+	text-align:left;
+	margin:10px 0px;
+}
+.resources .links h6 {
+	margin-top:0px;
+}
+.resources .links ul {
+	list-style-type:none;
+	padding-left:0px;
+	margin-bottom:0px;
+}
+.resources .links ul li a {
+	color:#000;
+	font-size:12px;
+    text-decoration:none;
+}
+.resources .links ul li a:hover {
+    text-decoration:underline;
+}
+.events {
+	padding-bottom:20px;
+}
+.events .photo {
+	background-image: url('https://www.purdue.edu/purdue/images/about_event.jpg');
+	background-size: cover;
+	background-position:center center;
+	border-left:15px solid #fff;
+	border-right:5px solid #fff;
+	height:280px;
+	display:block;
+}
+.events h4 {
+	color:#fff;
+	background-color:#4d4d4f;
+	margin:0px;
+	padding:10px;
+}
+
+.events .rss-items {
+	list-style-type:none;
+	margin:0px;
+	padding: 0px 0px 20px 0px;
+	display:block;
+}
+.events .rss-items li.rss-item {
+	width:100%;
+	height:60px;
+	float:left;	
+	background-color:#f5f5f5;
+	margin-top:20px;
+	display:block;
+	position:relative;
+}
+.events .rss-items li.rss-item:nth-child(3) {
+	
+}
+.events .rss-items li.rss-item a {
+	color: #a3792c;
+	text-decoration:none;
+	height:inherit;
+    float: right;
+    padding: 20px 0px 0px 0px;
+    position: relative;
+    left: -20px;
+	overflow:hidden;
+}
+.events .rss-items li.rss-item .rss-date {
+	background-color:#999;
+	padding:10px 15px;
+	width:60px;
+    height:60px;
+	text-align:center;
+	position:absolute;
+	float:left;
+	color:#fff;
+    font-size:15px;
+}
+.events .rss-items li.rss-item a,
+.events .rss-items li.rss-item .rss-date {
+	display:inline-block;
+}
+.events .rss-items li.rss-item br {
+	display:none;
+}
+.audiencefeature {
+	background-image:url('http://www.purdue.edu/purdue/images/audiencefeature.jpg');
+	background-size:cover;
+	background-position:center center;
+	height:400px;
+}
+.audiencefeature .caption {
+	padding:25px;
+}
+.audiencefeature .caption h3,
+.audiencefeature .caption p {
+	color:#fff;
+	text-shadow: 1px 1px 5px #333;
+}
+.audiencefeature .caption p a {
+	color:#fff;
+}
+.breadcrumb {
+	font-size:12px;
+}
+.breadcrumb ol {
+	padding: 8px 15px;
+	list-style: none;
+	background-color: #f5f5f5;
+	border-radius: 0px;
+	margin-bottom:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.breadcrumb ol li {
+	display:inline-block;
+}
+.breadcrumb ol > li + li:before {
+	content: "/\00a0";
+	padding: 0 5px;
+}
+.breadcrumb ol li,
+.breadcrumb ol li a {
+	color:#bbb;
+    text-decoration:none;
+}
+.hero,
+.feed,
+.deptaudience {
+	height:300px;
+	overflow:hidden;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.hero {
+	position:relative;
+	background-image:url('http://www.purdue.edu/purdue/images/banner1.jpg');
+	background-size:cover;
+	background-position:center center;	
+	border-left:15px solid #fff;
+	border-right:20px solid #fff;
+	padding:0px;
+}
+.hero a {
+	width: 100%;
+	height: inherit;
+	display: block;
+	z-index: 1000;
+	position: absolute;
+}
+.hero .carousel-caption {
+	left:10px;
+	bottom:10px;
+	padding:0px;
+	max-width:90%;
+}
+.hero .carousel-caption h2 {
+	background-color:#d8a726;
+	padding:10px 30px 10px 10px;
+	color:#fff;
+	text-shadow:none;
+	font-size:18px;
+	margin:0px;
+	display: inline-block;
+}
+.hero .carousel-caption p {
+	background-color:#a3792c;
+	color:#fff;
+	padding:10px 30px 10px 10px;
+	text-shadow:none;
+	font-size:12px;
+	margin:0px;
+}
+.hero .carousel-caption h2 a,
+.hero .carousel-caption p a,
+.hero .carousel-caption h2 a:hover,
+.hero .carousel-caption p a:hover {
+	color:#fff;
+	margin:0px;
+	text-shadow:none;
+	text-decoration:none;
+	position: relative;
+}
+
+.feed {
+	padding:0px;
+	border-right:15px solid #fff;
+}
+.feed .nav-tabs,
+.feed .tab-content {
+	float:left;
+	width:100%;
+}
+
+.feed .nav-tabs {
+	border:0px;
+	display:inline-block;
+	background-color:#999;
+}
+.feed .nav-tabs > li {
+	padding:0px;
+	margin:0px;
+	border-left:1px solid #eee;
+}
+.feed .nav-tabs > li:nth-child(1) {
+	border:0px;
+}
+.feed .nav-tabs > li > a,
+.feed .nav-tabs > li > div {
+	border-radius:0px;
+	border:0px;
+	margin:0px;
+	color:#fff;
+	text-align:center;
+	font-weight:300;
+	padding:10px 0px;
+	letter-spacing:1px;
+	text-decoration:none;
+}
+.feed .nav-tabs > li > a:hover {
+	background-color:#666;
+}
+.feed .nav-tabs > li.active > a,
+.feed .nav-tabs > li.active > a:hover,
+.feed .nav-tabs > li.active > a:focus,
+.feed .nav-tabs > li.active > div {
+	background-color:#666;
+	color:#fff;
+	border:0px;
+	text-decoration:none;
+}
+.feed .tab-content {
+	background-color:#eee;
+	height:100%;
+}
+.feed .tab-content .tab-pane h3 {
+    font-size: 16px;
+    padding: 0px 15px;
+    margin-bottom:0px;
+}
+.feed .tab-content .tab-pane p {
+    padding: 0px 15px;
+    margin-top:10px;
+    margin-bottom:0px;
+}
+.feed .tab-content .tab-pane p a {
+    text-decoration:none;
+}
+.feed .tab-content .tab-pane p a:hover {
+    text-decoration:underline;
+}
+.feed .tab-content .tab-pane ul {
+    font-size: 12px;
+    list-style-type: square;
+    padding: 10px 20px 0px 20px;
+    margin: 0px 0px 0px 10px;
+}
+.feed .tab-content .tab-pane ul li a {
+    color: #a3792c;
+}
+.feed .tab-content .tab-pane div ul {
+	list-style-type:square;
+	padding:20px;
+	margin:0px 0px 0px 10px;
+}
+.feed .tab-content .tab-pane div ul li {
+	line-height:14px;
+	margin-bottom:15px;
+}
+.feed .tab-content .tab-pane div ul li a {
+	color:#a3792c;
+	font-size:12px;
+}
+.deptaudience {
+	padding:0px;
+}
+.deptaudience div {
+	padding:0px;
+	border-right:20px solid #fff;
+	padding:0px !important;
+}
+.deptaudience div a {
+	/*background-color:#3b3b3b;
+	background-image:none;*/
+	height:140px;
+}
+.deptaudience div a .caption {
+	position:absolute;
+	color:#fff;
+	font-size:18px;
+	font-weight:300;
+	line-height:20px;
+	padding:5px;
+}
+.deptaudience div,
+.deptaudience div.currentstudents,
+.deptaudience div.prospectivestudents {
+	margin-bottom: 20px;
+}
+
+
+.feature a {
+	color:#666;
+	/*border:1px solid #999;*/
+	background-color:#eee;
+	width:100%;
+	display:block;
+	text-align:center;
+	padding:10px;
+	margin-bottom:20px;
+	text-decoration:none;
+}
+.feature a:hover {
+	background-color:#666;
+	color:#fff;
+}
+.maincontent {
+	padding-bottom:20px;
+}
+.maincontent .banner {
+	width:100%;
+	height:inherit;
+	padding-bottom:20px;
+}
+.maincontent h1 {
+	margin-top:0px;
+}
+.maincontent.news h3 {
+	display:inline-block;
+	color:#999;
+	padding-right:10px;
+	margin:0px;
+}
+.maincontent.news h3.date {
+	border-left:1px solid #999;
+	padding-left:10px;
+}
+.maincontent.news span.photo {
+	float:right;
+	margin:0px;
+	margin-left:15px;
+	margin-bottom:20px;
+	width:216px;
+	color:#666;
+}
+.maincontent.news span.photo img {
+	display:block;
+	width:inherit;
+}
+.maincontent.news span.photo p {
+	padding:15px;
+	margin:0px;
+	background-color:#f5f5f5;
+}
+.sidenav,
+.sidecontent {
+	padding-bottom:20px;
+	clear:left;
+}
+.sidenav ul {
+	list-style:none;
+	padding:0px;
+	margin-bottom:0px;
+	background-color:#f5f5f5;
+}
+.sidenav ul li a {
+	color:#333;
+	display:block;
+	padding:10px 15px 10px 12px;
+	border-left: 3px solid #e3e2e2;
+    text-decoration:none;
+}
+.sidenav ul li a:hover {
+	background-color:#999;
+	text-decoration:none;
+	color:#fff;
+	border-left: 3px solid #666;
+}
+.sidenav .dropdown-submenu > a:after {
+	margin-right:0px;
+}
+.sidenav .dropdown-submenu:hover > a:after {
+	border-left-color: #666;
+}
+.sidenav .dropdown-menu {
+	margin:0px;
+	border:0px;
+}
+.sidecontent .header,
+.rightnav .header {
+	margin-top:0px;
+}
+.sidecontent.news h3 {
+	margin-top:0px;
+}
+.sidecontent.news ul {
+	list-style-type: square;
+	padding-left:15px;
+	margin:0px;
+}
+.sidecontent.news ul li {
+	padding-bottom: 15px;
+}
+.sidecontent.news ul li a {
+	color:#333;
+	line-height:14px;
+	font-size:12px;
+}
+.rightnav h5 {
+	color:#333;
+}
+.rightnav ul {
+	list-style:none;
+	padding-left:0px;
+}
+.rightnav p,
+.rightnav a,
+.rightnav ul li,
+.rightnav ul li a {
+	color:#333;
+	font-size:12px;
+    text-decoration:none;
+}
+.rightnav a:hover,
+.rightnav ul li a:hover {
+    text-decoration:underline;
+}
+.college {
+	
+}
+.college .container .row {
+	margin:20px auto;
+}
+.college .intro {
+	background-color:#a3792c;
+	padding:30px;
+	height:inherit;
+}
+.college .intro h1 {
+	margin-top:0px;
+	color:#edb700;
+	font-size:22px;
+}
+.college .intro p {
+	color:#fff;
+}
+.college .intro .btn {
+	color:#fff;
+	border:1px solid #edb700;
+	border-radius:0px;
+	width:100%;
+	text-align:center;
+	text-decoration:none;
+	margin:10px 0px;
+	white-space: inherit;
+}
+.college .intro .btn:hover {
+	color:#000;
+	background-color: #edb700;
+}
+.college .grid {
+	height:inherit;
+	padding-left:20px;
+	padding-right:0px;
+}
+.college .grid a {
+	height:inherit;	
+	position:relative;
+}
+.college .grid .grid1,
+.college .grid .grid2,
+.college .grid .grid3_1,
+.college .grid .grid3_2,
+.college .grid .grid3_3,
+.college .grid .grid3_4,
+.college .grid .grid4 {
+	height:inherit;
+}
+
+.college .grid .grid1 .banner {
+	background-image:url('http://www.purdue.edu/purdue/images/grid1.jpg');
+	background-size:cover;
+	background-position:center center;
+	position:relative;
+	height:inherit;
+}
+.college .grid .grid2 div {
+	padding:0px;
+	height:inherit;
+}
+.college .grid .grid2 div:nth-child(1) {
+	padding-right:10px;
+}
+.college .grid .grid2 div:nth-child(2) {
+	padding-left:10px;
+}
+.college .grid .grid3_1 div {
+	padding:0px;
+}
+.college .grid .grid3_1 div:nth-child(1) {
+	margin-bottom:20px;
+}
+.college .grid .grid3_1 div:nth-child(2) {
+	padding-right:10px;
+}
+.college .grid .grid3_1 div:nth-child(3) {
+	padding-left:10px;
+}
+.college .grid .grid3_2 div {
+	padding:0px;
+}
+.college .grid .grid3_2 div:nth-child(3) {
+	margin-top:20px;
+}
+.college .grid .grid3_2 div:nth-child(1) {
+	padding-right:10px;
+}
+.college .grid .grid3_2 div:nth-child(2) {
+	padding-left:10px;
+}
+.college .grid .grid3_3 div:nth-child(3) {
+	margin-top:20px;
+}
+.college .grid .grid3_3 div:nth-child(1) {
+	padding-right:10px;
+	padding-left:0px;
+}
+.college .grid .grid3_3 div:nth-child(2),
+.college .grid .grid3_3 div:nth-child(3) {
+	padding-left:10px;
+	padding-right:0px;
+}
+.college .grid .grid3_4 div {
+	padding:0px;
+}
+.college .grid .grid3_4 div:nth-child(2) {
+	padding-left:10px;
+}
+.college .grid .grid3_4 div div {
+	padding-left:0px !important;
+	padding-right:10px;
+}
+.college .grid .grid3_4 div div:nth-child(1) {
+	margin-bottom:20px;
+}
+.college .grid .grid4 div {
+	padding:0px;
+	margin:0px;
+}
+.college .grid .grid4 div:nth-child(1),
+.college .grid .grid4 div:nth-child(2) {
+	margin-bottom:20px;
+}
+.college .grid .grid4 div:nth-child(1),
+.college .grid .grid4 div:nth-child(3) {
+	padding-right:10px;
+}
+.college .grid .grid4 div:nth-child(2),
+.college .grid .grid4 div:nth-child(4) {
+	padding-left:10px;
+}
+.footer {
+	background-color:#171717;
+	padding:20px 0px;
+}
+.footer .container .row {
+	margin-bottom:0px;
+}
+.footer .container .row div {
+	border-radius:0px;
+	border:0px;
+	box-shadow:none;
+	margin:0px;
+	background-color:transparent;
+}
+.footer .container .row .panel {
+	border-right:1px solid #a3792c;
+}
+.footer .container .row .panel:nth-child(3),
+.footer .container .row .panel:nth-child(4) {
+	border-left: 1px solid #a3792c; 
+	border-right:0px;
+}
+.footer .container .row .panel:nth-child(1) .panel-collapse .panel-body ul li,
+.footer .container .row .panel:nth-child(2) .panel-collapse .panel-body ul li {
+	text-align:right;
+}
+.footer .container .row .panel:nth-child(3) .panel-collapse .panel-body ul li,
+.footer .container .row .panel:nth-child(4) .panel-collapse .panel-body ul li {
+	text-align:left;
+}
+.footer .container .row div:nth-child(5) {
+	border:0px;
+}
+.footer .container .row div ul {
+	list-style-type:none;
+	padding-left:0px;
+	margin-bottom:0px;
+}
+.footer .container .row div .panel-heading {
+	color:inherit;
+	border:0px;
+	padding:0px;
+}
+.footer .container .row div .panel-heading h4 {
+	display:none;
+	position:relative;
+}
+.panel-default > .panel-heading+.panel-collapse .panel-body {
+	border:0px !important;
+	padding:0px;
+}
+
+.footer ul li {
+	line-height:14px;
+}
+.footer ul li a {
+	font-size:10px;
+	color:#fff;
+    text-decoration:none;
+	visibility: visible;
+}
+.footer ul li a:hover {
+	color:#a3792c;
+	text-decoration:none;
+}
+.footer .motto {
+	height:100%;
+	text-align:center;
+}
+.footer .motto img {
+	width:100%;
+	vertical-align:middle;
+	padding:0px 0px 5px 0px;
+	/*display:block;*/
+	margin:0px auto;
+}
+.footer .motto a {
+	color:#999;
+	width: 23px !important;
+	display: inline-block;
+	margin: 4px;
+}
+.footer .motto a:hover {
+	color:#fff;
+}
+.footer .motto a .fa {
+	font-size:20px;
+	/*margin:5px 7px;*/
+}
+
+
+.bottom {
+	background-color:#3b3b3b;
+	padding:10px;
+}
+.bottom p {
+	color:#ccc;
+	margin-bottom:0px;
+	font-size:10px;
+	text-align:center;
+}
+.bottom p a {
+	color:#ccc;
+}
+
+.homecomingvideo {
+	height: 566px;
+	overflow: hidden;
+	margin-bottom: 10px !important;
+	padding-top: 10px !important;
+	border-right: 10px solid white;
+	border-left: 10px solid white;
+}
+.homecomingvideo a {
+	height: inherit !important;
+	width: inherit;
+	display: block;
+	position: absolute;
+}
+.homecomingvideo .carousel-caption {
+	left:20px;
+}
+
+
+/*** General Media Queries ***/
+
+/* iPhone */
+@media only screen and (max-width: 479px) {
+	.resources .links {
+		width: 100%;
+		padding-top: 15px !important;
+		text-align: left !important;
+	}
+	.resources .links h6,
+	.resources .links ul li a {
+		font-size:18px !important;
+	}
+}
+/* Mobile */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+}
+/*@media screen and (max-width: 580px) {
+	.top .logo,
+	.top .department {
+		display:block;
+		width:100%;
+		text-align:center;
+	}
+	.top .department {
+		margin-top: 0px !important;
+	}
+	.top .logo a {
+		width:50%;
+		margin:0px auto;
+	}
+	.top .logo a img {
+		width:100%;
+	}
+	.top .department a {
+		border:0px;
+	}
+}*/
+/* XSmall */
+@media only screen and (max-width: 767px) {
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: 400;
+	}
+	h1 {
+		font-size:28px;
+	}
+	h2 {
+		font-size:24px;
+	}
+	h3 {
+		font-size:22px;
+	}
+	h4 {
+		font-size:20px;
+	}
+	h5 {
+		font-size:18px;
+	}
+	h6 {
+		font-size:18px;
+	}
+	table, p, li,
+    .maincontent ul li,
+    .maincontent ol li {
+		font-size:16px;
+	}
+	.nav > li > a {
+		padding:10px 25px;
+	}
+	.goldbar.navbar-inverse .navbar-nav .dropdown-toggle {
+		display:none;
+	}
+	.goldbar.navbar-inverse .navbar-nav > li > a .caret {
+		display:none;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a,
+	.navbar-inverse .navbar-nav .dropdown-menu > li > a,
+	.goldbar.navbar-inverse .quicklinks > li > a {
+		color:#fff;
+		text-transform:none;
+		padding: 5px 15px;
+		font-size: 14px;
+		line-height: 20px !important;
+		margin:0px;
+		white-space: inherit;
+	}
+	.navbar .container {
+		padding:0px 15px;
+	}
+	.navbar-header p {
+		float:left;
+		margin:0px;
+		padding-top:12px;
+		text-transform:none;
+		color:#ffffff;
+		font-weight: 200;
+	}
+	.navbar-header .fa-lg {
+		font-size:1.7em;
+	}	button.navbar-toggle:hover .fa-lg {
+	color:#000000;
+	}
+	.search {
+		float:none;
+	}
+	.goldbar .search .form-group {
+		border: 5px solid transparent;
+		border-top:0px !important;
+		width: 100%;
+	}	
+	.cse input.gsc-input, input.gsc-input {
+		width: 100% !important;
+		height: 30px;
+	}
+	.goldbar .information .dropdown-menu > li > a:hover,
+	.goldbar.navbar-inverse .quicklinks > li > a:hover {
+		color:#000;
+		background-color:transparent;
+	}
+	.goldbar .information,
+	.goldbar .quicklinks {
+		float:left;
+		width:50%;
+	}
+	.goldbar .information .hide,
+	.goldbar .quicklinks .hide {
+		display:block !important;
+		color:#000;
+		text-transform:none;
+		padding-left:15px;
+	}
+	.goldbar .information,
+	.goldbar .quicklinks,
+	.blackbar .navbar-nav {
+		padding:0px 0px 10px 0px;
+	}
+	
+	.goldbar .navbar-nav .dropdown .dropdown-menu,
+	.navbar-nav .open .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		padding:0px;
+		background-color: transparent;
+		border: 0;
+		box-shadow: none;
+		display:block;
+	}
+	.goldbar .nav .dropdown {
+		padding:0px 10px;
+	}
+    .goldbar .search .dropdown a .fa-search {
+        line-height: inherit;
+    }
+	.goldbar .search .dropdown-toggle {
+		display:none;
+	}
+	.goldbar .search .dropdown-menu {
+		display:block;
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		border: 0;
+		box-shadow: none;
+	}	
+	.goldbar .search .form-group {
+		border:15px solid transparent;
+		width:100%;
+	}
+	.goldbar .search .form-group form {
+		padding: 7px 0px !important;
+	}
+	.goldbar .search .form-group .form-control {
+		width:inherit;
+		background-color:#fff;
+		color:#000;
+	}
+    .cse input.gsc-input,
+    input.gsc-input {
+	    width:100% !important;
+    }
+	.top .logo {
+		display:block;
+		text-align:center;
+	}
+	.top .logo a,
+	.top .logo a img {
+		margin-left:7px;
+	}
+	.top .department {
+		width:100%;
+		text-align:center;
+	}
+	.top .department a {
+		border:0px;
+		font-size:1.5em;
+		font-weight:300;
+        padding-bottom:20px;
+	}
+	.top .department .tagline {
+		border:0px;
+		font-size:.9em;
+		font-weight:300;
+        padding-bottom:20px;
+	}
+	.top .logo a {
+		width:50%;
+		margin:0px auto;
+	}
+	/*.top .department {
+		margin-top: 35px;
+	}
+	.top .department a {
+		font-size:20px;
+	}*/
+	.blackbar.navbar-inverse .navbar-nav > li > a:hover {
+		color:#a3792c;
+	}
+	.blackbar.navbar-inverse .navbar-nav > li > a {
+		color:#fff;
+	}
+	/*.blackbar .navbar-nav .dropdown .dropdown-menu .dropdown-submenu .dropdown-menu,
+	.blackbar .navbar-nav .open .dropdown-menu .dropdown-submenu .dropdown-menu {
+		display:none;
+	}*/
+	.blackbar.navbar-inverse .navbar-nav .open .dropdown-menu > li > a,
+	.blackbar.navbar-inverse .navbar-nav .dropdown-menu > li > a {
+		padding: 5px 35px;
+	}
+	.blackbar.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+	.blackbar.navbar-inverse .navbar-nav .dropdown-menu > li > a:hover {
+		color: #a3792c;
+	}
+	.blackbar .dropdown-submenu > a:after {
+		display: inline-block;
+		width: 0;
+		height: 0;
+		margin-left: 4px;
+		vertical-align: middle;
+		border-top: 4px solid;
+		border-right: 4px solid transparent;
+		border-left: 4px solid transparent;
+		float:none;
+	}
+	.blackbar.navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-submenu > .dropdown-menu li a,
+	.blackbar.navbar-inverse .navbar-nav .dropdown-menu > .dropdown-submenu > .dropdown-menu li a {
+		padding: 5px 55px;	
+	}
+	.banner1,
+	.banner2,
+	.banner3,
+	.carousel-control.left,
+	.carousel-control.right,
+	.carousel-indicators {
+		display:none;
+	}
+	.audience {
+		text-align:center
+	}
+	.audience h1,
+	.audience h2 {
+		font-size:35px;
+		margin-top:0px;
+	}
+	.audience p {
+		display:none;
+	}
+	.audience .btn {
+		margin:10px 0px;
+		font-size:1.5em;
+	}
+	.resources {
+		padding:20px;
+	}
+	.resources .photo {
+		border:0px;
+		padding:0px;
+	}
+	.resources h4 {
+		text-align:center;
+		font-size:35px;
+	}
+	.resources .links {
+		padding:0px 15px;
+		text-align:center;
+	}
+	.resources .links:nth-child(3),
+	.resources .links:nth-child(4) {
+		padding-top:15px;
+	}
+    .resources .links:nth-child(3) {
+        clear:left;
+    }
+	.resources .links h6,
+	.resources .links ul li a {
+		font-size:19px !important;
+	}
+	.events {
+		padding-bottom:20px;
+		background-color:#f5f5f5;
+	}
+	.events h4 {
+		display:inline-block;
+		font-size: 35px;
+		color: #6f6f6f; 
+		text-align: center;
+		background-color:transparent;
+		width:100%;
+		margin:0px;
+		padding:0px;
+	}
+	.events .rss-items {
+		padding:0px 10px;
+	}
+	.events .rss-items li.rss-item {
+		background-color:transparent;
+		width:100%;
+		/*height:inherit;*/
+		border:0px;
+		font-size: 1.2em;
+	}
+	.events .rss-items li.rss-item a {
+		margin-top:0px;
+        margin-left: 75px;
+        float:none;
+        padding:0px;
+        left:0px;
+        line-height:20px;
+	}
+	.events .rss-items li.rss-item .rss-date {
+		padding: 10px 15px;
+        float:none;
+        left:0px;
+	}
+	.events .photo {
+		border:0px;
+		margin-bottom:20px;
+	}
+	.audiencefeature {
+		background-image:url('http://www.purdue.edu/purdue/images/audiencefeature.jpg');
+		background-size:cover;
+		background-position:center center;
+		height:inherit;
+		padding:0px;
+	}
+	.audiencefeature .caption {
+		background-image:url('http://www.purdue.edu/purdue/images/transparentblack.png');
+	}
+	.breadcrumb {
+		display:none;
+	}
+	.maincontent {
+		float:none;
+		padding-top:20px;
+	}
+	.sidenav ul li {
+		border-bottom: 2px solid #fff;
+	}
+	.sidenav ul li a {
+		font-size:18px;
+	}
+	.hero,
+	.feed {
+		border:0px;
+	}
+	.hero {
+		height:200px;
+		border-left: 15px solid #fff;
+		border-right: 15px solid #fff;
+	}
+	.hero .carousel-caption {
+		display:none;
+	}
+	.feed {
+		border-left: 15px solid #fff;
+        border-right: 15px solid #fff;
+        height:inherit;
+        margin-bottom:0px;
+	}
+    .feed .tab-content .tab-pane h3 {
+        font-size:22px;
+    }
+    .feed .tab-content .tab-pane ul {
+        font-size: 16px;
+    }
+    .feed .tab-content .tab-pane div ul li {
+        line-height: 20px;
+    }
+    .feed .tab-content .tab-pane div ul li a {
+        font-size: 16px;
+    }
+	.deptaudience {
+		padding-left: 15px;
+		padding-right: 15px;
+		height:auto;
+		margin-bottom:0px;
+	}
+	.deptaudience div {
+		border:0px;
+	}
+	.deptaudience div:nth-child(1),
+	.deptaudience div:nth-child(3) {
+		border-right: 10px solid #fff;
+	}
+	.deptaudience div:nth-child(2),
+	.deptaudience div:nth-child(4) {
+		border-left: 10px solid #fff;
+	}
+	.deptaudience div a {
+		height:100px !important;
+	}
+	.feature a {
+		margin-left:0px;
+		margin-bottom:20px;
+        font-size:16px;
+	}
+	.rightnav {
+		display:none;
+	}
+	.maincontent.news {
+		padding-bottom:0px;
+	}
+	.maincontent.news span.photo {
+		float:none;
+		margin-left:0px;
+		margin-bottom:20px;
+		display:block;
+		width:100%;
+	}
+	.maincontent.news span.photo img {
+		width:100%;
+	}
+	.maincontent.news span.photo p {
+		padding:20px;
+	}
+	.sidecontent.news h3 {
+		margin-top: 20px;
+		padding-top:20px;
+		border-top: 1px solid #eee;
+	}
+	.sidecontent.news .rss-item a {
+		font-size:16px;
+	}
+	.college .container .row {
+		height:inherit;
+	}
+	.college .container .row .grid {
+		padding-left:0px;
+		margin-top:20px;
+	}
+	.college .grid .grid1 .banner {
+		height:300px;
+	}
+	.college .grid .grid2 div,
+	.college .grid .grid3_1 div,
+	.college .grid .grid3_2 div,
+	.college .grid .grid3_3 div,
+	.college .grid .grid3_4 div,
+	.college .grid .grid3_4 div div,
+	.college .grid .grid4 div {
+		height:100px !important;
+	}
+	.college .grid .grid3_3 div:nth-child(1) {
+		margin-bottom:20px;
+		padding-right:0px;
+	}
+	.college .grid .grid3_3 div:nth-child(2) {
+		padding-right:10px;
+		padding-left:0px;		
+	}
+	.college .grid .grid3_3 div:nth-child(3) {
+		margin-top:0px;
+		padding-left:10px;
+	}
+	.college .grid .grid3_4 div:nth-child(2) {
+		padding-left:0px;
+		margin-bottom:0px;
+	}
+	.college .grid .grid3_4 div {
+		margin-bottom:20px;
+	}
+	.college .grid .grid3_4 div div:nth-child(1) {
+		padding-right:10px;
+	}
+	.college .grid .grid3_4 div div:nth-child(2) {
+		padding-right:0px;
+		padding-left:10px !important;
+	}
+	.footer {
+		padding:0px 0px 20px 0px;
+	}
+	.footer ul li a {
+		font-size:14px;
+		line-height:32px;
+	}
+	.footer .container .row .panel {
+		border-left:0px !important;
+		border-right:0px !important;
+		border-bottom: 1px solid #333 !important;
+		z-index:9999;
+	}
+	.footer .container .row div:nth-child(1) {
+		border-left: 0px;
+		text-align: left;
+	}
+	.footer .container .row div:nth-child(2) {
+		border-right: 0px;
+	}
+	.footer .container .row div:nth-child(5) {
+		border:0px;
+	}
+	.footer .container .row div ul {
+		border:0px;
+		padding: 0px 20px 20px 20px;
+	}
+	.footer .container .row .panel .panel-collapse .panel-body ul li {
+		text-align:left !important;
+	}
+	.footer .container .row div .panel-heading h4 {
+		display:block;
+		font-size:16px;
+		color:#a3792c;
+		padding:0px 10px;
+	}
+	.footer .container .row div .panel-heading h4 a {
+		width:100%;
+		display:block;
+		padding:15px 0px;
+		font-size:18px;
+		text-decoration:none;
+	}
+	.footer .container .row div .panel-heading h4 a:hover {
+		text-decoration:none;
+	}
+	.footer .container .row div .panel-heading h4 a.collapsed .fa-minus {
+		display:none !important;
+	}
+	.footer .container .row div .panel-heading h4 a.collapsed .fa-plus {
+		display:block !important;
+	}
+	.footer .container .row div .panel-heading h4 a .fa-plus {
+		display:none;
+	}
+	.footer .container .row div .panel-heading h4 a .fa-minus {
+		display:block;
+	}
+	.footer .motto {
+		z-index:999;
+	}
+	.footer .motto img {
+		/*display:block;*/
+		margin:0px auto;
+		padding-top:20px;
+	}
+	.footer .motto a {
+		display:none;
+	}
+	.bottom p {
+		text-align:center;
+	}
+	.homecomingvideo {
+		height: 300px;
+		margin: 10px 0px !important;
+		background-image: url('https://www.purdue.edu/purdue/video/Homecoming.jpg');
+		background-position:center center;
+		background-size:cover;
+		border-right: 10px solid #fff;
+		border-left: 10px solid #fff;
+	}
+	.homecomingvideo a {
+		top:0px;
+	}
+	.homecomingvideo .carousel-caption p,
+	.homecomingvideo video {
+		display:none;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.navbar-header p {
+		display:none;
+	}
+}
+/* Small */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.top .department {
+		margin-top: 30px;
+	}
+	.top .department a {
+		font-size:20px;
+	}
+	.banner1,
+	.banner2,
+	.banner3 {
+		height:386px;
+		width:760px;
+	}
+	.audience .btn {
+		float:right;
+		margin:10px;
+	}
+	.events .event {
+		height:140px;
+	}
+	.events .carousel-control {
+		top:20px;
+	}
+	.events .rss-items li.rss-item a {
+		text-overflow: ellipsis;
+		width:370px;
+		white-space: nowrap;
+		overflow:hidden;
+    }
+	.feed .nav-tabs > li > a {
+		font-size:12px;
+	}
+	.deptaudience div {
+		border-right: 15px solid #fff;
+	}
+	.deptaudience div.communityoutreach,
+	.deptaudience div.alumnidonors {
+		margin-bottom: 20px;
+	}
+	.deptaudience div a {
+		height:60px;
+	}
+	.college .container .row {
+		height:500px;
+	}
+	.college .grid .grid3_1 div,
+	.college .grid .grid3_2 div,
+	.college .grid .grid3_3 div,
+	.college .grid .grid3_4 div div,
+	.college .grid .grid4 div {
+		height:240px;
+	}
+	.college .grid .grid3_3 div:nth-child(1),
+	.college .grid .grid3_4 div,
+	.college .grid .grid3_4 div:nth-child(3) {
+		height:inherit;
+	}
+	.footer .motto a {
+		margin:2px;
+	}
+	.homecomingvideo {
+		height: 356px;
+	}
+}
+/* Medium */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.top .department {
+		margin-top: 35px;
+	}
+	.top .department a {
+		font-size:25px;
+	}
+	.banner1,
+	.banner2,
+	.banner3 {
+		height:494px;
+		width:980px;
+	}
+	.events .event {
+		height:105px;
+	}
+	.events .rss-items li.rss-item a {
+		text-overflow: ellipsis;
+		width:520px;
+		white-space: nowrap;
+		overflow:hidden;
+    }
+	.college .container .row {
+		height:400px;
+	}
+	.college .grid .grid3_1 div,
+	.college .grid .grid3_2 div,
+	.college .grid .grid3_3 div,
+	.college .grid .grid3_4 div div,
+	.college .grid .grid4 div {
+		height:190px;
+	}
+	.college .grid .grid3_3 div:nth-child(1),
+	.college .grid .grid3_4 div,
+	.college .grid .grid3_4 div:nth-child(3) {
+		height:400px;
+	}
+	.homecomingvideo {
+		height: 464px;
+	}
+}
+/* Large */
+@media only screen and (min-width: 1200px) {
+	.top .department {
+		margin-top: 30px;
+	}
+	.top .department a {
+		font-size:25px;
+	}
+	
+	.banner1,
+	.banner2,
+	.banner3 {
+		height:596px;
+		width:1180px;
+	}
+	.events .event {
+		height:110px;
+	}
+	.events .rss-items li.rss-item a {
+		text-overflow: ellipsis;
+		width:650px;
+		white-space: nowrap;
+		overflow:hidden;
+    }
+	.college .container .row {
+		height:350px;
+	}
+	.college .grid .grid3_1 div,
+	.college .grid .grid3_2 div,
+	.college .grid .grid3_3 div,
+	.college .grid .grid3_4 div div,
+	.college .grid .grid4 div {
+		height:165px;
+	}
+	.college .grid .grid3_3 div:nth-child(1),
+	.college .grid .grid3_4 div,
+	.college .grid .grid3_4 div:nth-child(3) {
+		height:350px;
+	}
+
+}
+
+
+/* Non-Mobile */
+@media only screen and (min-width: 768px) {
+	.footer .container .row div .collapse {
+		display:block;
+	}
+}
+
+
+@media print {
+	.navbar, .breadcrumb,
+    .sidenav, .sidecontent, .rightnav,
+    .footer .panel, .motto, .bottom  {
+        display:none !important;
+    }
+    .top .logo a img {
+        width:30%;
+    }
+    .top .department a {
+        border:0px;
+        padding-left:0px;
+        padding-bottom:20px;
+        color:#000;
+    }
+	
+	/*Purdue Homepage*/
+	.boxes .row div {
+		display:block;
+		width:100%;
+	}
+	.boxes .row div a {
+		border:0px;
+		padding:10px;
+	}
+	.boxes .row div a .caption {
+		color:#000
+	}
+	
+	/*Audience Page*/
+	.audience, .audiencefeature {
+		background-image: transparent !important;
+	}
+	.audience .btn {
+		border:1px solid #000;
+		margin-top:0px;
+		background-color:#fff;
+		color:#000;
+	}
+	.resources .links {
+		display:block;
+		width:100%;
+	}
+	.events {
+		display:none;
+	}
+}
+
+
