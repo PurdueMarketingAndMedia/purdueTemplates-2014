@@ -1301,7 +1301,7 @@ a .caption,
 .sidenav ul li a:hover {
 	background-color:#999;
 	text-decoration:none;
-	color:#fff;
+	color:#000;
 	border-left: 3px solid #666;
 }
 .sidenav .dropdown-submenu > a:after {
