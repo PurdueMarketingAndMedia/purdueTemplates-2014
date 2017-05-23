@@ -821,10 +821,11 @@ a .caption,
 }
 
 .carousel-caption h2 {
-	background-color:#a3792c;
-	color:#fff;
+	background-color:#C28E0E;
+	color:#000;
 	text-shadow:none;
 	font-size:1.2rem; /* 18px */
+	font-weight:400;
 	padding:10px;
 	margin:0px;
 	display: inline-block;
@@ -1350,21 +1351,22 @@ a .caption,
 	margin:20px auto;
 }
 .college .intro {
-	background-color:#a3792c;
+	background-color:#d8d8d8;
 	padding:30px;
 	height:inherit;
 }
 .college .intro h1 {
 	margin-top:0px;
-	color:#edb700;
+	color:#98700D;
 	font-size:1.6667rem; /* 25px */
+	font-weight:700;
 }
 .college .intro p {
-	color:#fff;
+	color:#000;
 }
 .college .intro .btn {
-	color:#fff;
-	border:1px solid #edb700;
+	color:#000;
+	border:1px solid #bbb;
 	border-radius:0px;
 	width:100%;
 	font-size:0.9333rem; /* 14px */
@@ -1375,7 +1377,7 @@ a .caption,
 }
 .college .intro .btn:hover {
 	color:#000;
-	background-color: #edb700;
+	background-color:#bbb;
 }
 .college .grid {
 	flex:1;
@@ -1384,6 +1386,10 @@ a .caption,
 }
 .college .grid a {
 	height:100%;
+}
+.college .grid a:link,.college .grid a:visited,.college .grid a:hover,.college .grid a:active{
+	background-color:#000;
+	color:#fff;
 }
 .college .grid .grid1,
 .college .grid .grid2,
