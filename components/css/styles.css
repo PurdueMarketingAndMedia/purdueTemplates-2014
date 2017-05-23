@@ -276,7 +276,8 @@ table.gsc-branding, table.gcsc-branding {
 	display:none;
 }
 .top {
-	background-image: url('https://www.purdue.edu/purdue/images/stripes.png');
+	background-color:#3b3b3b;
+	background-image:url('https://www.purdue.edu/purdue/images/stripes.png');
 	background-repeat:repeat;
 }
 .top .logo {
@@ -286,6 +287,7 @@ table.gsc-branding, table.gcsc-branding {
 .top .logo a img {
 	width:100%;
 	display:block;
+	color:#fff;
 }
 .top .department {
 	width:inherit;
