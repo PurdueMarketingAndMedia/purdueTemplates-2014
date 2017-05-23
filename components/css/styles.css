@@ -5,6 +5,7 @@ html{
 }
 body{
     position:relative;
+    font-size:1em;
 }
 h1, .h1,
 h2, .h2,
@@ -12,32 +13,32 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-    margin-top:1.3333rem; /* 20px */
+    margin-top:1.5333rem; /* 23px */
 }
 h1 {
-    font-size:1.8667rem; /* 28px */
+    font-size:2.1333rem; /* 32px */
 }
 h2 {
-	font-size:1.6rem; /* 24px */
+	font-size:1.8667rem; /* 28px */
 }
 h3 {
-	font-size:1.3333rem; /* 20px */
+	font-size:1.5333rem; /* 23px */
 }
 h4 {
-	font-size:1.2rem; /* 18px */
+	font-size:1.4rem; /* 21px */
 }
 h5 {
-	font-size:1.0667rem; /* 16px */
+	font-size:1.2rem; /* 18px */
 }
 h6 {
-	font-size:0.9333rem; /* 14px */
+	font-size:1.0667rem; /* 16px */
 }
 h1, h2, h3, h4, h5, h6,
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-	font-weight: 300;
+	font-weight:300;
 	color:#a3792c;
 }
-a { 
+a{ 
     cursor:pointer !important;
 	color:#a3792c;
 }
@@ -106,8 +107,7 @@ td a:focus {
 }
 .navbar-toggle {
 	float:left;
-	margin-left:15px;
-	margin-right:0px;
+	margin:0.5333rem 0 0.5333rem 15px; /* 8px 0 8px 15px */
 	border:0px;
 }
 .navbar-toggle.search {
@@ -262,10 +262,9 @@ table.gsc-branding, table.gcsc-branding {
 .top {
 	background-image: url('https://www.purdue.edu/purdue/images/stripes.png');
 	background-repeat:repeat;
-	/*height:105px;*/
 }
 .top .logo {
-	margin:25px 0px;
+	margin:1.6667rem 0px; /* 25px */
 }
 .top .logo a,
 .top .logo a img {
@@ -330,6 +329,7 @@ table.gsc-branding, table.gcsc-branding {
 	border:0px;
 	border-radius:0px;
 	z-index:1001;
+	font-size:0.9333rem; /* 14px */
 }
 .blackbar .dropdown .dropdown-menu > li > a {
 	color:#999;
@@ -877,6 +877,7 @@ a .caption,
 	border-radius:0px;
 	padding:12px;
 	margin:30px 0px;
+	font-size:0.9333rem; /* 14px */
 	color:#fff;
 	text-shadow:none;
 	text-decoration:none;
@@ -942,7 +943,7 @@ a .caption,
 }
 .events .rss-items li.rss-item {
 	width:100%;
-	height:60px;
+    height:4rem; /* 60px */
 	float:left;	
 	background-color:#f5f5f5;
 	margin-top:20px;
@@ -956,20 +957,19 @@ a .caption,
 	color: #a3792c;
 	text-decoration:none;
 	height:inherit;
-    float: right;
-    padding: 20px 0px 0px 0px;
-    position: relative;
-    left: -20px;
+    padding:1.3333rem 1.3333rem 0px; /* 20px 20px 0 */
+    position:absolute;
+    left:4rem; /* 60px */
+    right:0;
 	overflow:hidden;
 }
 .events .rss-items li.rss-item .rss-date {
 	background-color:#999;
-	padding:10px 15px;
-	width:60px;
-    height:60px;
+	padding:0.6667rem 1rem; /* 10px 15px */
+	width:4rem; /* 60px */
+    height:4rem; /* 60px */
 	text-align:center;
 	position:absolute;
-	float:left;
 	color:#fff;
     font-size:1rem; /* 15px */
 }
@@ -984,7 +984,7 @@ a .caption,
 	background-image:url('http://www.purdue.edu/purdue/images/audiencefeature.jpg');
 	background-size:cover;
 	background-position:center center;
-	height:400px;
+	min-height:26.6667rem; /* 400px */
 }
 .audiencefeature .caption {
 	padding:25px;
@@ -1024,7 +1024,7 @@ a .caption,
 .hero,
 .feed,
 .deptaudience {
-	height:300px;
+	height:20rem; /* 300px */
 	overflow:hidden;
 	margin-top:20px;
 	margin-bottom:20px;
@@ -1177,9 +1177,7 @@ a .caption,
 	padding:0px !important;
 }
 .deptaudience div a {
-	/*background-color:#3b3b3b;
-	background-image:none;*/
-	height:140px;
+	height:9.3333rem; /* 140px */
 }
 .deptaudience div a .caption {
 	position:absolute;
@@ -1192,7 +1190,7 @@ a .caption,
 .deptaudience div,
 .deptaudience div.currentstudents,
 .deptaudience div.prospectivestudents {
-	margin-bottom: 20px;
+	margin-bottom:1.3333rem; /* 20px */
 }
 
 
@@ -1280,6 +1278,7 @@ a .caption,
 	border-left-color: #666;
 }
 .sidenav .dropdown-menu {
+	font-size:0.9333rem;
 	margin:0px;
 	border:0px;
 }
@@ -1326,6 +1325,12 @@ a .caption,
 	
 }
 .college .container .row {
+	position:relative;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content:center;
+	align-items:stretch;
 	margin:20px auto;
 }
 .college .intro {
@@ -1336,7 +1341,7 @@ a .caption,
 .college .intro h1 {
 	margin-top:0px;
 	color:#edb700;
-	font-size:1.4667rem; /* 22px */
+	font-size:1.6667rem; /* 25px */
 }
 .college .intro p {
 	color:#fff;
@@ -1346,6 +1351,7 @@ a .caption,
 	border:1px solid #edb700;
 	border-radius:0px;
 	width:100%;
+	font-size:0.9333rem; /* 14px */
 	text-align:center;
 	text-decoration:none;
 	margin:10px 0px;
@@ -1356,13 +1362,12 @@ a .caption,
 	background-color: #edb700;
 }
 .college .grid {
-	height:inherit;
+	flex:1;
 	padding-left:20px;
 	padding-right:0px;
 }
 .college .grid a {
-	height:inherit;	
-	position:relative;
+	height:100%;
 }
 .college .grid .grid1,
 .college .grid .grid2,
@@ -1371,15 +1376,17 @@ a .caption,
 .college .grid .grid3_3,
 .college .grid .grid3_4,
 .college .grid .grid4 {
-	height:inherit;
+	width:100%;
+	height:100%;
 }
 
 .college .grid .grid1 .banner {
+	position:relative;
 	background-image:url('http://www.purdue.edu/purdue/images/grid1.jpg');
 	background-size:cover;
 	background-position:center center;
-	position:relative;
 	height:inherit;
+	width:100%;
 }
 .college .grid .grid2 div {
 	padding:0px;
@@ -1395,19 +1402,21 @@ a .caption,
 	padding:0px;
 }
 .college .grid .grid3_1 div:nth-child(1) {
-	margin-bottom:20px;
+	padding-bottom:10px;
 }
 .college .grid .grid3_1 div:nth-child(2) {
+	padding-top:10px;
 	padding-right:10px;
 }
 .college .grid .grid3_1 div:nth-child(3) {
+	padding-top:10px;
 	padding-left:10px;
 }
 .college .grid .grid3_2 div {
 	padding:0px;
 }
 .college .grid .grid3_2 div:nth-child(3) {
-	margin-top:20px;
+	padding-top:20px;
 }
 .college .grid .grid3_2 div:nth-child(1) {
 	padding-right:10px;
@@ -1416,7 +1425,7 @@ a .caption,
 	padding-left:10px;
 }
 .college .grid .grid3_3 div:nth-child(3) {
-	margin-top:20px;
+	padding-top:20px;
 }
 .college .grid .grid3_3 div:nth-child(1) {
 	padding-right:10px;
@@ -1438,7 +1447,10 @@ a .caption,
 	padding-right:10px;
 }
 .college .grid .grid3_4 div div:nth-child(1) {
-	margin-bottom:20px;
+	padding-bottom:10px;
+}
+.college .grid .grid3_4 div div:nth-child(2) {
+	padding-top:10px;
 }
 .college .grid .grid4 div {
 	padding:0px;
@@ -1446,7 +1458,11 @@ a .caption,
 }
 .college .grid .grid4 div:nth-child(1),
 .college .grid .grid4 div:nth-child(2) {
-	margin-bottom:20px;
+	padding-bottom:10px;
+}
+.college .grid .grid4 div:nth-child(3),
+.college .grid .grid4 div:nth-child(4) {
+	padding-top:10px;
 }
 .college .grid .grid4 div:nth-child(1),
 .college .grid .grid4 div:nth-child(3) {
@@ -1863,20 +1879,17 @@ a .caption,
 	.events .rss-items li.rss-item {
 		background-color:transparent;
 		width:100%;
-		/*height:inherit;*/
+		height:auto;
 		border:0px;
 		font-size:1.0667rem; /* 16px */
         line-height:1.25em; /* 20px */
 	}
 	.events .rss-items li.rss-item a {
-		margin-top:0px;
-        margin-left:75px;
-        float:none;
-        padding:0px;
-        left:0px;
+		position:static;
+		margin-left:4rem; /* 60px */
+        padding:0.6667rem 1rem; /* 10px 15px */
 	}
 	.events .rss-items li.rss-item .rss-date {
-		padding: 10px 15px;
         float:none;
         left:0px;
 	}
@@ -1912,7 +1925,7 @@ a .caption,
 		border:0px;
 	}
 	.hero {
-		height:200px;
+		height:13.3333rem; /* 200px */
 		border-left: 15px solid #fff;
 		border-right: 15px solid #fff;
 	}
@@ -1955,7 +1968,7 @@ a .caption,
 		border-left: 10px solid #fff;
 	}
 	.deptaudience div a {
-		height:100px !important;
+		height:6.6667rem !important; /* 100px */
 	}
 	.feature a {
 		margin-left:0px;
@@ -1990,6 +2003,7 @@ a .caption,
 		font-size:1.0667rem; /* 16px */
 	}
 	.college .container .row {
+		display:block;
 		height:inherit;
 	}
 	.college .container .row .grid {
@@ -1997,7 +2011,7 @@ a .caption,
 		margin-top:20px;
 	}
 	.college .grid .grid1 .banner {
-		height:300px;
+		height:20rem; /* 15px */
 	}
 	.college .grid .grid2 div,
 	.college .grid .grid3_1 div,
@@ -2006,7 +2020,7 @@ a .caption,
 	.college .grid .grid3_4 div,
 	.college .grid .grid3_4 div div,
 	.college .grid .grid4 div {
-		height:100px !important;
+		height:7.7333rem !important; /* 116 px */
 	}
 	.college .grid .grid3_3 div:nth-child(1) {
 		margin-bottom:20px;
@@ -2018,6 +2032,7 @@ a .caption,
 	}
 	.college .grid .grid3_3 div:nth-child(3) {
 		margin-top:0px;
+		padding-top:0;
 		padding-left:10px;
 	}
 	.college .grid .grid3_4 div:nth-child(2) {
@@ -2028,9 +2043,11 @@ a .caption,
 		margin-bottom:20px;
 	}
 	.college .grid .grid3_4 div div:nth-child(1) {
+		padding-bottom:0;
 		padding-right:10px;
 	}
 	.college .grid .grid3_4 div div:nth-child(2) {
+		padding-top:0;
 		padding-right:0px;
 		padding-left:10px !important;
 	}
@@ -2169,17 +2186,18 @@ a .caption,
 		margin-bottom: 20px;
 	}
 	.deptaudience div a {
-		height:60px;
+		height:4rem; /* 60px */
 	}
 	.college .container .row {
-		height:500px;
+		min-height:38.4667rem; /* 577px */
 	}
 	.college .grid .grid3_1 div,
 	.college .grid .grid3_2 div,
 	.college .grid .grid3_3 div,
 	.college .grid .grid3_4 div div,
 	.college .grid .grid4 div {
-		height:240px;
+		height:50%;
+		min-height:18.5333rem; /* 278px */
 	}
 	.college .grid .grid3_3 div:nth-child(1),
 	.college .grid .grid3_4 div,
@@ -2217,19 +2235,21 @@ a .caption,
 		overflow:hidden;
     }
 	.college .container .row {
-		height:400px;
+		min-height:31.6667rem; /* 475px */
 	}
 	.college .grid .grid3_1 div,
 	.college .grid .grid3_2 div,
 	.college .grid .grid3_3 div,
 	.college .grid .grid3_4 div div,
 	.college .grid .grid4 div {
-		height:190px;
+		height:50%;
+		min-height:15.1333rem; /* 227px */
 	}
 	.college .grid .grid3_3 div:nth-child(1),
 	.college .grid .grid3_4 div,
 	.college .grid .grid3_4 div:nth-child(3) {
-		height:400px;
+		height:100%;
+		min-height:31.6667rem; /* 475px */
 	}
 	.homecomingvideo {
 		height: 464px;
@@ -2255,24 +2275,27 @@ a .caption,
 	}
 	.events .rss-items li.rss-item a {
 		text-overflow: ellipsis;
-		width:650px;
+		width:auto;
 		white-space: nowrap;
 		overflow:hidden;
     }
 	.college .container .row {
-		height:350px;
+		display:flex;
+		min-height:26.9333rem; /* 404px */
 	}
 	.college .grid .grid3_1 div,
 	.college .grid .grid3_2 div,
 	.college .grid .grid3_3 div,
 	.college .grid .grid3_4 div div,
 	.college .grid .grid4 div {
-		height:165px;
+		height:50%;
+		min-height:12.8rem; /* 192px */
 	}
 	.college .grid .grid3_3 div:nth-child(1),
 	.college .grid .grid3_4 div,
 	.college .grid .grid3_4 div:nth-child(3) {
-		height:350px;
+		height:100%;
+		min-height:26.9333rem; /* 404px */
 	}
 
 }
