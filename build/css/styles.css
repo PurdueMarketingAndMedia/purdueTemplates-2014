@@ -874,7 +874,7 @@ a .caption,
 }
 .audience {
 	background-image:none;
-	background-color:#999;
+	background-color:#000;
     background-position:center center;
 	background-size:cover;
 	padding:15px;
@@ -903,7 +903,7 @@ a .caption,
     width:100%;
 }
 .audience .btn:hover {
-	background-color:#999;
+	background-color:#000;
     background-image:none;
 }
 .resources {
@@ -973,7 +973,8 @@ a .caption,
 	
 }
 .events .rss-items li.rss-item a {
-	color: #a3792c;
+	background-color:#f5f5f5;
+	color:#000;
 	text-decoration:none;
 	height:inherit;
     padding:1.3333rem 1.3333rem 0px; /* 20px 20px 0 */
@@ -982,8 +983,13 @@ a .caption,
     right:0;
 	overflow:hidden;
 }
+.events .rss-items li.rss-item a:hover,
+.events .rss-items li.rss-item a:active {
+	color:#000;
+	background-color:#ccc;
+}
 .events .rss-items li.rss-item .rss-date {
-	background-color:#999;
+	background-color:#4d4d4d;
 	padding:0.6667rem 1rem; /* 10px 15px */
 	width:4rem; /* 60px */
     height:4rem; /* 60px */
@@ -1000,6 +1006,7 @@ a .caption,
 	display:none;
 }
 .audiencefeature {
+	background-color:#000;
 	background-image:url('http://www.purdue.edu/purdue/images/audiencefeature.jpg');
 	background-size:cover;
 	background-position:center center;
@@ -1198,7 +1205,10 @@ a .caption,
 .deptaudience div a {
 	height:9.3333rem; /* 140px */
 }
-.deptaudience div a:link,a:visited,a:hover,a:active{
+.deptaudience div a:link,
+.deptaudience div a:visited,
+.deptaudience div a:hover,
+.deptaudience div a:active{
 	background-color:#000;
 	color:#fff;
 }
