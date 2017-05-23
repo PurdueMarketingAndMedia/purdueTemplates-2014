@@ -1071,7 +1071,7 @@ a .caption,
 	max-width:90%;
 }
 .hero .carousel-caption h2 {
-	background-color:#d8a726;
+	background-color:#000;
 	padding:10px 30px 10px 10px;
 	color:#fff;
 	text-shadow:none;
@@ -1080,8 +1080,8 @@ a .caption,
 	display: inline-block;
 }
 .hero .carousel-caption p {
-	background-color:#a3792c;
-	color:#fff;
+	background-color:#C28E0E;
+	color:#000;
 	padding:10px 30px 10px 10px;
 	text-shadow:none;
 	font-size:0.8rem; /* 12px */
@@ -1111,7 +1111,7 @@ a .caption,
 .feed .nav-tabs {
 	border:0px;
 	display:inline-block;
-	background-color:#999;
+	background-color:#555;
 }
 .feed .nav-tabs > li {
 	padding:0px;
@@ -1128,19 +1128,19 @@ a .caption,
 	margin:0px;
 	color:#fff;
 	text-align:center;
-	font-weight:300;
+	font-weight:400;
 	padding:10px 0px;
 	letter-spacing:1px;
 	text-decoration:none;
 }
 .feed .nav-tabs > li > a:hover {
-	background-color:#666;
+	background-color:#222;
 }
 .feed .nav-tabs > li.active > a,
 .feed .nav-tabs > li.active > a:hover,
 .feed .nav-tabs > li.active > a:focus,
 .feed .nav-tabs > li.active > div {
-	background-color:#666;
+	background-color:#222;
 	color:#fff;
 	border:0px;
 	text-decoration:none;
@@ -1197,6 +1197,10 @@ a .caption,
 }
 .deptaudience div a {
 	height:9.3333rem; /* 140px */
+}
+.deptaudience div a:link,a:visited,a:hover,a:active{
+	background-color:#000;
+	color:#fff;
 }
 .deptaudience div a .caption {
 	position:absolute;
