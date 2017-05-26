@@ -36,17 +36,21 @@ h6 {
 h1, h2, h3, h4, h5, h6,
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	font-weight:300;
-	color:#a3792c;
+	color:#C28E0E;
 }
-a{ 
-    cursor:pointer !important;
-	color:#a3792c;
+a:link,
+a:visited{
+	font-weight:700;
+	color:#000;
+	cursor:pointer;
+	text-decoration:underline;
 }
 a:hover,
-a:link,
-a:visited,
-a:active {
-	color: #a3792c;
+a:active{
+	font-weight:700;
+	color:#000;
+	cursor:pointer;
+	text-decoration:none;
 }
 
 table,
@@ -60,7 +64,7 @@ p a,
 li a,
 blockquote a,
 td a {
-	color:#a3792c;
+	color:#000000;
 	text-decoration:underline;
 }
 div a:hover,
@@ -73,7 +77,7 @@ blockquote a:hover,
 blockquote a:focus,
 td a:hover,
 td a:focus {
-	color:#a3792c;
+	color:#000000;
 	text-decoration:none;
 }
 .right {
@@ -140,6 +144,7 @@ td a:focus {
 }
 .goldbar a:link {
     text-decoration:none;
+    font-weight:400;
 }
 .goldbar .dropdown-menu {
 	border-radius:0px;
@@ -147,11 +152,13 @@ td a:focus {
 .goldbar .navbar-nav > li > a {
 	color:#000;
 	padding:5px 15px;
+    font-weight:400;
 }
 .goldbar .navbar-nav > li > a:hover, .goldbar .navbar-nav > li > a:focus{
 	background-color:transparent;
 	color:#000;
 	text-decoration:underline;
+    font-weight:400;
 }
 .goldbar .navbar-nav > li > a .fa-search {
     line-height:1.3333rem;
@@ -300,7 +307,7 @@ table.gsc-branding, table.gcsc-branding {
 	padding-right:10px;
 	text-decoration:none;
 	letter-spacing:1px;
-	border-left:1px solid #a3792c;
+	border-left:1px solid #C28E0E;
 	display: block;
 }
 .top .department .tagline {
@@ -319,6 +326,7 @@ table.gsc-branding, table.gcsc-branding {
 }
 .blackbar a {
     text-decoration:none !important;
+    font-weight:400;
 }
 .blackbar .navbar-toggle:hover,
 .blackbar .navbar-toggle:focus,
@@ -328,7 +336,7 @@ table.gsc-branding, table.gcsc-branding {
 .blackbar .navbar-toggle:hover .icon-bar,
 .blackbar .navbar-toggle:focus .icon-bar,
 .blackbar .navbar-toggle:active .icon-bar {
-	background-color:#856324;
+	background-color:#C28E0E;
 }
 .blackbar .navbar-nav > .open > a,
 .blackbar .navbar-nav > .open > a:hover,
@@ -536,7 +544,7 @@ table.gsc-branding, table.gcsc-branding {
 }
 .currentstudents a {
 	background-image: url('http://www.purdue.edu/purdue/images/currentstudents_banner.jpg');
-	border-bottom:8px solid #2EAFA4;
+	border-bottom:8px solid #29A592;
 }
 .currentstudents.news a {
 	background-image: url('http://www.purdue.edu/purdue/images/currentstudents_news_banner.jpg');
@@ -544,7 +552,7 @@ table.gsc-branding, table.gcsc-branding {
 }
 .library a {
 	background-image: url('http://www.purdue.edu/purdue/images/library.png');
-	background-color:#2EAFA4;
+	background-color:#000;
 	border-bottom:0px;
 }
 .graduation a {
@@ -554,16 +562,14 @@ table.gsc-branding, table.gcsc-branding {
 }
 .ourresearch a {
 	background-image: url('http://www.purdue.edu/purdue/images/ourresearch_homepage.jpg');
-	border-bottom:8px solid #7299C6;
+	border-bottom:8px solid #6E99B4;
 }
 .communityoutreach a {
 	background-image: url('http://www.purdue.edu/purdue/images/communityoutreach_banner.jpg');
-	border-bottom:8px solid #7ed0e0;
+	border-bottom:8px solid #A3D6D7;
 }
 .careers a {
-	/*background-image: url('http://www.purdue.edu/purdue/images/careers_banner.jpg');*/
-	/*border-bottom:8px solid #D9DA56;*/
-	background-color:#5C8727;
+	background-color:#849E2A;
 	border-bottom:0px;
 	background-position:top right;
 	background-size:contain;
@@ -571,15 +577,15 @@ table.gsc-branding, table.gcsc-branding {
 }
 .facultystaff a {
     background-image: url('http://www.purdue.edu/purdue/images/facultystaff_banner.jpg');
-	border-bottom:8px solid #B8B308;
+	border-bottom:8px solid #C28E0E;
 }
 .prospectivestudents a {
 	background-image: url('http://www.purdue.edu/purdue/images/prospectivestudents_banner.jpg');
-	border-bottom:8px solid #A3792C;
+	border-bottom:8px solid #C28E0E;
 }
 .movein a {
 	background-image: url('http://www.purdue.edu/purdue/images/movein_banner.jpg');
-	border-bottom:8px solid #7299c6;
+	border-bottom:8px solid #6E99B4;
 }
 .alumnidonors a {
 	background-image: url('http://www.purdue.edu/purdue/images/alumnidonors_banner.jpg');
@@ -587,16 +593,16 @@ table.gsc-branding, table.gcsc-branding {
 }
 .newsevents a {
 	background-image: url('http://www.purdue.edu/purdue/images/newsevents_banner.jpg');
-	border-bottom:8px solid #746C66;
+	border-bottom:8px solid #4D4038;
 }
 .eventcalendar a {
 	background-image: url('http://www.purdue.edu/purdue/images/eventcalendar_icon.png');
-	background-color:#746c66;
+	background-color:#4D4038;
 	border-bottom:0px;
 }
 .visit a {
 	background-image: url('http://www.purdue.edu/purdue/images/visit_icon.png');
-	background-color:#E3AE24;
+	background-color:#FFD100;
 	border-bottom:0px;
 }
 .apply a {
@@ -614,12 +620,12 @@ table.gsc-branding, table.gcsc-branding {
 }
 .givenow a {
 	background-image: url('http://www.purdue.edu/purdue/images/givenow_icon.png');
-	background-color:#E3AE24;
+	background-color:#FFD100;
 	border-bottom:0px;
 }
 .business a {
 	background-image: url('http://www.purdue.edu/purdue/images/engage_banner.jpg');
-	border-bottom:8px solid #b8b308;
+	border-bottom:8px solid #849E2A;
 	
 }
 .homecoming a {
@@ -897,6 +903,7 @@ a .caption,
 	padding:12px;
 	margin:30px 0px;
 	font-size:0.9333rem; /* 14px */
+    font-weight:400;
 	color:#fff;
 	text-shadow:none;
 	text-decoration:none;
@@ -982,6 +989,7 @@ a .caption,
     left:4rem; /* 60px */
     right:0;
 	overflow:hidden;
+    font-weight:400;
 }
 .events .rss-items li.rss-item a:hover,
 .events .rss-items li.rss-item a:active {
@@ -1179,7 +1187,7 @@ a .caption,
     margin: 0px 0px 0px 10px;
 }
 .feed .tab-content .tab-pane ul li a {
-    color: #a3792c;
+    color: #000000;
 }
 .feed .tab-content .tab-pane div ul {
 	list-style-type:square;
@@ -1191,7 +1199,7 @@ a .caption,
 	margin-bottom:15px;
 }
 .feed .tab-content .tab-pane div ul li a {
-	color:#a3792c;
+	color:#000000;
 	font-size:0.8rem; /* 12px */
 }
 .deptaudience {
@@ -1236,10 +1244,12 @@ a .caption,
 	text-align:center;
 	padding:10px;
 	margin-bottom:20px;
+    font-weight:400;
 	text-decoration:none;
 }
 .feature a:hover {
 	background-color:#666;
+    font-weight:400;
 	color:#fff;
 }
 .maincontent {
@@ -1296,6 +1306,7 @@ a .caption,
 	display:block;
 	padding:10px 15px 10px 12px;
 	border-left: 3px solid #e3e2e2;
+	font-weight:400;
     text-decoration:none;
 }
 .sidenav ul li a:hover {
@@ -1304,7 +1315,13 @@ a .caption,
 	color:#000;
 	border-left: 3px solid #666;
 }
+.sidenav .dropdown-submenu > a {
+	position:relative;
+}
 .sidenav .dropdown-submenu > a:after {
+	position:absolute;
+	top:30%;
+	right:4px;
 	margin-right:0px;
 }
 .sidenav .dropdown-submenu:hover > a:after {
@@ -1388,6 +1405,7 @@ a .caption,
 	font-size:0.9333rem; /* 14px */
 	text-align:center;
 	text-decoration:none;
+    font-weight:400;
 	margin:10px 0px;
 	white-space: inherit;
 }
@@ -1525,11 +1543,11 @@ a .caption,
 	background-color:transparent;
 }
 .footer .container .row .panel {
-	border-right:1px solid #a3792c;
+	border-right:1px solid #C28E0E;
 }
 .footer .container .row .panel:nth-child(3),
 .footer .container .row .panel:nth-child(4) {
-	border-left: 1px solid #a3792c; 
+	border-left: 1px solid #C28E0E; 
 	border-right:0px;
 }
 .footer .container .row .panel:nth-child(1) .panel-collapse .panel-body ul li,
@@ -1557,6 +1575,12 @@ a .caption,
 	display:none;
 	position:relative;
 }
+.footer .container .row div .panel-heading h4 a{
+	display:none;
+	position:relative;
+	font-weight:400;
+	color:#C28E0E;
+}
 .panel-default > .panel-heading+.panel-collapse .panel-body {
 	border:0px !important;
 	padding:0px;
@@ -1567,12 +1591,14 @@ a .caption,
 }
 .footer ul li a {
 	font-size:0.6667rem; /* 10px */
+    font-weight:400;
 	color:#fff;
     text-decoration:none;
 	visibility: visible;
 }
 .footer ul li a:hover {
-	color:#a3792c;
+    font-weight:400;
+	color:#C28E0E;
 	text-decoration:none;
 }
 .footer .motto {
@@ -1611,6 +1637,7 @@ a .caption,
 	text-align:center;
 }
 .bottom p a {
+    font-weight:400;
 	color:#ccc;
 }
 
@@ -1683,7 +1710,6 @@ a .caption,
 	.goldbar.navbar-inverse .navbar-nav > li > a .caret {
 		display:none;
 	}
-	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a,
 	.navbar-inverse .navbar-nav .dropdown-menu > li > a,
 	.goldbar.navbar-inverse .quicklinks > li > a {
 		color:#000;
@@ -1704,6 +1730,9 @@ a .caption,
 		text-transform:none;
 		color:#000;
 		font-weight:400;
+	}
+	.blackbar .navbar-header p {
+		color:#fff;
 	}
 	.navbar-header .fa-lg {
 		font-size:1.7em;
@@ -1822,19 +1851,21 @@ a .caption,
 		width:50%;
 		margin:0px auto;
 	}
-	.blackbar.navbar-inverse .navbar-nav > li > a:hover {
-		color:#a3792c;
-	}
 	.blackbar.navbar-inverse .navbar-nav > li > a {
 		color:#fff;
+	}
+	.blackbar.navbar-inverse .navbar-nav > li > a:hover {
+		color:#C28E0E;
 	}
 	.blackbar.navbar-inverse .navbar-nav .open .dropdown-menu > li > a,
 	.blackbar.navbar-inverse .navbar-nav .dropdown-menu > li > a {
 		padding: 5px 35px;
+		color:#fff;
 	}
 	.blackbar.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
 	.blackbar.navbar-inverse .navbar-nav .dropdown-menu > li > a:hover {
-		color: #a3792c;
+		color:#C28E0E;
+		text-decoration:underline;
 	}
 	.blackbar .dropdown-submenu > a:after {
 		display: inline-block;
@@ -1873,6 +1904,7 @@ a .caption,
 	.audience .btn {
 		margin:10px 0px;
 		font-size:1.5em;
+    	font-weight:400;
 	}
 	.resources {
 		padding:20px;
@@ -1927,12 +1959,16 @@ a .caption,
 	}
 	.events .rss-items li.rss-item a {
 		position:static;
-		margin-left:4rem; /* 60px */
+		width:auto;
+		min-height:4rem;
+		margin-left:4rem;
         padding:0.6667rem 1rem; /* 10px 15px */
 	}
 	.events .rss-items li.rss-item .rss-date {
+		position:absolute;
         float:none;
-        left:0px;
+        top:0;
+        left:0;
 	}
 	.events .photo {
 		border:0px;
@@ -1955,11 +1991,41 @@ a .caption,
 		float:none;
 		padding-top:20px;
 	}
+	.sidenav ul{
+		overflow:hidden;
+	}
 	.sidenav ul li {
 		border-bottom: 2px solid #fff;
 	}
 	.sidenav ul li a {
-		font-size:1.2rem; /* 18px */
+		font-size:1.2rem; /* 18px */;
+	}
+	.sidenav .dropdown-submenu > a:after{
+		position:static;
+		border-left:5px solid transparent;
+		border-right:5px solid transparent;
+		border-top:5px solid #999;
+		border-bottom:none;
+	}
+	.sidenav .dropdown-submenu:hover > a:after{
+		border-left:5px solid transparent;
+		border-right:5px solid transparent;
+		border-top:5px solid #000;
+		border-bottom:none;
+	}
+	.sidenav .dropdown-submenu > .dropdown-menu{
+		position:static;
+		width:100%;
+	}
+	.sidenav .dropdown-submenu:hover .dropdown-menu{
+		display:none;
+	}
+	.sidenav .dropdown-submenu.open:hover .dropdown-menu{
+		display:block;
+	}
+	.sidenav .dropdown-submenu > .dropdown-menu a{
+		padding-left:30px;
+		font-size:1.0667rem;
 	}
 	.hero,
 	.feed {
@@ -1990,6 +2056,7 @@ a .caption,
     }
     .feed .tab-content .tab-pane div ul li a {
         font-size:1.0667rem; /* 16px */
+    	font-weight:400;
     }
 	.deptaudience {
 		padding-left: 15px;
@@ -2125,7 +2192,7 @@ a .caption,
 	.footer .container .row div .panel-heading h4 {
 		display:block;
 		font-size:1.0667rem; /* 16px */
-		color:#a3792c;
+		color:#C28E0E;
 		padding:0px 10px;
 	}
 	.footer .container .row div .panel-heading h4 a {
@@ -2212,7 +2279,6 @@ a .caption,
 	}
 	.events .rss-items li.rss-item a {
 		text-overflow: ellipsis;
-		width:370px;
 		white-space: nowrap;
 		overflow:hidden;
     }
@@ -2271,7 +2337,6 @@ a .caption,
 	}
 	.events .rss-items li.rss-item a {
 		text-overflow: ellipsis;
-		width:520px;
 		white-space: nowrap;
 		overflow:hidden;
     }
