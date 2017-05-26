@@ -1078,8 +1078,9 @@ a .caption,
 }
 .breadcrumb ol li,
 .breadcrumb ol li a {
-	color:#bbb;
+	color:#000;
     text-decoration:none;
+    font-weight:400;
 }
 .hero,
 .feed,
