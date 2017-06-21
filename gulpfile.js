@@ -53,7 +53,7 @@ gulp.task('css', function(){
         {
             gulp.src(cssSources)
                 .pipe(gulp.dest(outputDir+'css/'))
-                .pipe(cssnano())
+                .pipe(cssnano({zindex: false}))
                 .pipe(rename({
                     suffix: ".min"
                 }))
