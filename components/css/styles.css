@@ -186,6 +186,9 @@ td a:focus {
 	text-decoration:underline;
     font-weight:400;
 }
+.goldbar .navbar-nav > li > a:focus{
+	outline:dotted 1px #000;
+}
 .goldbar .navbar-nav > li > a .fa-search {
     line-height:1.3333rem;
 }
@@ -350,9 +353,19 @@ table.gsc-branding, table.gcsc-branding {
 	background-color:#171717;
 	border:0px;
 }
-.blackbar a {
+.blackbar a:link, .blackbar a:visited{
+	color:#999;
     text-decoration:none !important;
     font-weight:400;
+}
+.blackbar a:hover, .blackbar a:focus, .blackbar a:active{
+	color:#fff;
+    text-decoration:none !important;
+    font-weight:400;
+}
+.blackbar a:focus{
+	outline:none;
+	background-color:#373737 !important;
 }
 .blackbar .navbar-toggle:hover,
 .blackbar .navbar-toggle:focus,
