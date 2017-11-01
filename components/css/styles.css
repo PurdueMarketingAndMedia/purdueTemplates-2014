@@ -1468,6 +1468,7 @@ a .caption,
 	background-color:#bbb;
 }
 .college .grid {
+	position:relative;
 	flex:1;
 	padding-left:20px;
 	padding-right:0px;
@@ -1488,6 +1489,9 @@ a .caption,
 .college .grid .grid4 {
 	width:100%;
 	height:100%;
+	position:absolute;
+	top:0;
+	bottom:0;
 }
 
 .college .grid .grid1 .banner {
@@ -2229,6 +2233,16 @@ a .caption,
 	.college .container .row .grid {
 		padding-left:0px;
 		margin-top:20px;
+	}
+	.college .grid .grid1,
+	.college .grid .grid2,
+	.college .grid .grid3_1,
+	.college .grid .grid3_2,
+	.college .grid .grid3_3,
+	.college .grid .grid3_4,
+	.college .grid .grid3_4,
+	.college .grid .grid4{
+		position:static;
 	}
 	.college .grid .grid1 .banner {
 		height:20rem; /* 15px */
