@@ -2108,6 +2108,9 @@ a .caption,
 	.sidenav ul li a {
 		font-size:1.2rem; /* 18px */;
 	}
+	.sidenav .dropdown-submenu{
+		overflow:hidden;
+	}
 	.sidenav .dropdown-submenu > a:after{
 		position:static;
 		border-left:5px solid transparent;
@@ -2121,14 +2124,15 @@ a .caption,
 		border-top:5px solid #000;
 		border-bottom:none;
 	}
-	.sidenav .dropdown-submenu > .dropdown-menu{
+	.sidenav .dropdown-submenu > .dropdown-menu, .sidenav .dropdown-submenu > .dropdown-toggle + .dropdown-menu{
+		display:none;
 		position:static;
 		width:100%;
 	}
-	.sidenav .dropdown-submenu:hover .dropdown-menu{
+	.sidenav .dropdown-submenu > .dropdown-menu, .sidenav .dropdown-submenu:hover > .dropdown-menu{
 		display:none;
 	}
-	.sidenav .dropdown-submenu.open:hover .dropdown-menu{
+	.sidenav .dropdown-submenu.open > .dropdown-menu{
 		display:block;
 	}
 	.sidenav .dropdown-submenu > .dropdown-menu a{
