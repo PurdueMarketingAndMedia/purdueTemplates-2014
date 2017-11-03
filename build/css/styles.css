@@ -1468,6 +1468,7 @@ a .caption,
 	background-color:#bbb;
 }
 .college .grid {
+	position:relative;
 	flex:1;
 	padding-left:20px;
 	padding-right:0px;
@@ -1486,8 +1487,12 @@ a .caption,
 .college .grid .grid3_3,
 .college .grid .grid3_4,
 .college .grid .grid4 {
-	width:100%;
 	height:100%;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:20px;
+	right:0;
 }
 
 .college .grid .grid1 .banner {
@@ -2108,6 +2113,9 @@ a .caption,
 	.sidenav ul li a {
 		font-size:1.2rem; /* 18px */;
 	}
+	.sidenav .dropdown-submenu{
+		overflow:hidden;
+	}
 	.sidenav .dropdown-submenu > a:after{
 		position:static;
 		border-left:5px solid transparent;
@@ -2121,14 +2129,15 @@ a .caption,
 		border-top:5px solid #000;
 		border-bottom:none;
 	}
-	.sidenav .dropdown-submenu > .dropdown-menu{
+	.sidenav .dropdown-submenu > .dropdown-menu, .sidenav .dropdown-submenu > .dropdown-toggle + .dropdown-menu{
+		display:none;
 		position:static;
 		width:100%;
 	}
-	.sidenav .dropdown-submenu:hover .dropdown-menu{
+	.sidenav .dropdown-submenu > .dropdown-menu, .sidenav .dropdown-submenu:hover > .dropdown-menu{
 		display:none;
 	}
-	.sidenav .dropdown-submenu.open:hover .dropdown-menu{
+	.sidenav .dropdown-submenu.open > .dropdown-menu{
 		display:block;
 	}
 	.sidenav .dropdown-submenu > .dropdown-menu a{
@@ -2225,6 +2234,16 @@ a .caption,
 	.college .container .row .grid {
 		padding-left:0px;
 		margin-top:20px;
+	}
+	.college .grid .grid1,
+	.college .grid .grid2,
+	.college .grid .grid3_1,
+	.college .grid .grid3_2,
+	.college .grid .grid3_3,
+	.college .grid .grid3_4,
+	.college .grid .grid3_4,
+	.college .grid .grid4{
+		position:static;
 	}
 	.college .grid .grid1 .banner {
 		height:20rem; /* 15px */
