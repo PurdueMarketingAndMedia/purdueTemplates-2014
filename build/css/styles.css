@@ -574,7 +574,7 @@ table.gsc-branding, table.gcsc-branding {
 	background-size:contain;
 }
 .audiencebox a {
-	background-image: url('http://www.purdue.edu/purdue/images/audiencebox.jpg');
+	background-image: url('https://www.purdue.edu/purdue/images/audiencebox.jpg');
 	border-bottom:8px solid #000000;
 }
 .emergency a {
@@ -582,29 +582,29 @@ table.gsc-branding, table.gcsc-branding {
 	border:0px;
 }
 .currentstudents a {
-	background-image: url('http://www.purdue.edu/purdue/images/currentstudents_banner.jpg');
+	background-image: url('https://www.purdue.edu/purdue/images/currentstudents_banner.jpg');
 	border-bottom:8px solid #29A592;
 }
 .currentstudents.news a {
-	background-image: url('http://www.purdue.edu/purdue/images/currentstudents_news_banner.jpg');
+	background-image: url('https://www.purdue.edu/purdue/images/currentstudents_news_banner.jpg');
 	border-bottom:0px;
 }
 .library a {
-	background-image: url('http://www.purdue.edu/purdue/images/library.png');
+	background-image: url('https://www.purdue.edu/purdue/images/library.png');
 	background-color:#000;
 	border-bottom:0px;
 }
 .graduation a {
-	background-image: url('http://www.purdue.edu/purdue/images/graduation.png');
+	background-image: url('https://www.purdue.edu/purdue/images/graduation.png');
 	background-color:#000000;
 	border-bottom:0px;
 }
 .ourresearch a {
-	background-image: url('http://www.purdue.edu/purdue/images/ourresearch_homepage.jpg');
+	background-image: url('https://www.purdue.edu/purdue/images/ourresearch_homepage.jpg');
 	border-bottom:8px solid #6E99B4;
 }
 .communityoutreach a {
-	background-image: url('http://www.purdue.edu/purdue/images/communityoutreach_banner.jpg');
+	background-image: url('https://www.purdue.edu/purdue/images/communityoutreach_banner.jpg');
 	border-bottom:8px solid #A3D6D7;
 }
 .careers a {
@@ -612,63 +612,63 @@ table.gsc-branding, table.gcsc-branding {
 	border-bottom:0px;
 	background-position:top right;
 	background-size:contain;
-	background-image: url('http://www.purdue.edu/purdue/images/careers_icon.png');
+	background-image: url('https://www.purdue.edu/purdue/images/careers_icon.png');
 }
 .facultystaff a {
-    background-image: url('http://www.purdue.edu/purdue/images/facultystaff_banner.jpg');
+    background-image: url('https://www.purdue.edu/purdue/images/facultystaff_banner.jpg');
 	border-bottom:8px solid #C28E0E;
 }
 .prospectivestudents a {
-	background-image: url('http://www.purdue.edu/purdue/images/prospectivestudents_banner.jpg');
+	background-image: url('https://www.purdue.edu/purdue/images/prospectivestudents_banner.jpg');
 	border-bottom:8px solid #C28E0E;
 }
 .movein a {
-	background-image: url('http://www.purdue.edu/purdue/images/movein_banner.jpg');
+	background-image: url('https://www.purdue.edu/purdue/images/movein_banner.jpg');
 	border-bottom:8px solid #6E99B4;
 }
 .alumnidonors a {
-	background-image: url('http://www.purdue.edu/purdue/images/alumnidonors_banner.jpg');
+	background-image: url('https://www.purdue.edu/purdue/images/alumnidonors_banner.jpg');
 	border-bottom:8px solid #888888;
 }
 .newsevents a {
-	background-image: url('http://www.purdue.edu/purdue/images/newsevents_banner.jpg');
+	background-image: url('https://www.purdue.edu/purdue/images/newsevents_banner.jpg');
 	border-bottom:8px solid #4D4038;
 }
 .eventcalendar a {
-	background-image: url('http://www.purdue.edu/purdue/images/eventcalendar_icon.png');
+	background-image: url('https://www.purdue.edu/purdue/images/eventcalendar_icon.png');
 	background-color:#4D4038;
 	border-bottom:0px;
 }
 .visit a {
-	background-image: url('http://www.purdue.edu/purdue/images/visit_icon.png');
+	background-image: url('https://www.purdue.edu/purdue/images/visit_icon.png');
 	background-color:#FFD100;
 	border-bottom:0px;
 }
 .apply a {
-	background-image: url('http://www.purdue.edu/purdue/images/apply_icon.png');
+	background-image: url('https://www.purdue.edu/purdue/images/apply_icon.png');
 	background-color:#746c66;
 	border-bottom:0px;
 }
 .thinksummer a {
-	background-image: url('http://www.purdue.edu/purdue/images/thinksummer_icon.png');
+	background-image: url('https://www.purdue.edu/purdue/images/thinksummer_icon.png');
 	background-color:#000000;
 	border-bottom:0px;
 }
 .thinksummer a:hover {
-	background-image: url('http://www.purdue.edu/purdue/images/thinksummer_icon_hover.png');
+	background-image: url('https://www.purdue.edu/purdue/images/thinksummer_icon_hover.png');
 }
 .givenow a {
-	background-image: url('http://www.purdue.edu/purdue/images/givenow_icon.png');
+	background-image: url('https://www.purdue.edu/purdue/images/givenow_icon.png');
 	background-color:#FFD100;
 	border-bottom:0px;
 }
 .business a {
-	background-image: url('http://www.purdue.edu/purdue/images/engage_banner.jpg');
+	background-image: url('https://www.purdue.edu/purdue/images/engage_banner.jpg');
 	border-bottom:8px solid #849E2A;
 	
 }
 .homecoming a {
-	background-image: url('http://www.purdue.edu/purdue/images/homecoming.jpg');
+	background-image: url('https://www.purdue.edu/purdue/images/homecoming.jpg');
 	border-bottom:8px solid #000000;
 }
 a .caption {
@@ -851,13 +851,13 @@ a .caption,
 	position: relative;
 }
 .banner1 {
-	background-image:url('http://www.purdue.edu/purdue/images/banner1.jpg');
+	background-image:url('https://www.purdue.edu/purdue/images/banner1.jpg');
 }
 .banner2 {
-	background-image:url('http://www.purdue.edu/purdue/images/banner2.jpg');
+	background-image:url('https://www.purdue.edu/purdue/images/banner2.jpg');
 }
 .banner3 {
-	background-image:url('http://www.purdue.edu/purdue/images/banner3.jpg');
+	background-image:url('https://www.purdue.edu/purdue/images/banner3.jpg');
 }
 
 .carousel-caption {
@@ -936,7 +936,7 @@ a .caption,
 	font-size:0.9333rem; /* 14px */
 }
 .audience .btn {
-	background-image: url('http://www.purdue.edu/purdue/images/transparentblack.png');
+	background-image: url('https://www.purdue.edu/purdue/images/transparentblack.png');
 	border:1px solid #fff;
 	border-radius:0px;
 	padding:12px;
@@ -1054,7 +1054,7 @@ a .caption,
 }
 .audiencefeature {
 	background-color:#000;
-	background-image:url('http://www.purdue.edu/purdue/images/audiencefeature.jpg');
+	background-image:url('https://www.purdue.edu/purdue/images/audiencefeature.jpg');
 	background-size:cover;
 	background-position:center center;
 	min-height:26.6667rem; /* 400px */
@@ -1105,7 +1105,7 @@ a .caption,
 }
 .hero {
 	position:relative;
-	background-image:url('http://www.purdue.edu/purdue/images/banner1.jpg');
+	background-image:url('https://www.purdue.edu/purdue/images/banner1.jpg');
 	background-size:cover;
 	background-position:center center;	
 	border-left:15px solid #fff;
@@ -1497,7 +1497,7 @@ a .caption,
 
 .college .grid .grid1 .banner {
 	position:relative;
-	background-image:url('http://www.purdue.edu/purdue/images/grid1.jpg');
+	background-image:url('https://www.purdue.edu/purdue/images/grid1.jpg');
 	background-size:cover;
 	background-position:center center;
 	height:inherit;
@@ -2088,14 +2088,14 @@ a .caption,
 		margin-bottom:20px;
 	}
 	.audiencefeature {
-		background-image:url('http://www.purdue.edu/purdue/images/audiencefeature.jpg');
+		background-image:url('https://www.purdue.edu/purdue/images/audiencefeature.jpg');
 		background-size:cover;
 		background-position:center center;
 		height:inherit;
 		padding:0px;
 	}
 	.audiencefeature .caption {
-		background-image:url('http://www.purdue.edu/purdue/images/transparentblack.png');
+		background-image:url('https://www.purdue.edu/purdue/images/transparentblack.png');
 	}
 	.breadcrumb {
 		display:none;
