@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/PurdueMarketingAndMedia/purdueTemplates-2014#readme",
   "devDependencies": {
-    "async": "^2.1.5",
+    "async": "^2.6.1",
     "gulp": "^3.9.1",
     "gulp-connect": "^5.0.0",
     "gulp-cssnano": "^2.1.2",
@@ -26,6 +26,6 @@
     "gulp-if-else": "^1.0.3"
   },
   "dependencies": {
-    "gulp-rename": "^1.2.2"
+    "gulp-rename": "^1.4.0"
   }
 }
