@@ -27,5 +27,8 @@
   },
   "dependencies": {
     "gulp-rename": "^1.4.0"
+  },
+  "overrides": {
+    "graceful-fs": "^4.2.11"
   }
 }
