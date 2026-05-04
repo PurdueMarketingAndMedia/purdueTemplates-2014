@@ -1646,7 +1646,8 @@ a .caption,
 }
 
 .footer ul li {
-	line-height:0.9333rem; /* 14px */
+	line-height:1.4rem; /* ~21px — was 14px, too tight for accessibility */
+	padding:4px 0;
 }
 .footer ul li a {
 	font-size:0.6667rem; /* 10px */
